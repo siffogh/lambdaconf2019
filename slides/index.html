@@ -1,0 +1,864 @@
+<!DOCTYPE html>
+	<html class="sl-root decks export offline loaded">
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title>ReasonML: Predictable Frontend Programming</title>
+
+
+		<link rel="stylesheet" type="text/css" href="lib/offline-v2.css">
+
+
+
+		<!-- User CSS -->
+		<style id="user-css-output" type="text/css">
+			.reveal {
+  background-color: #011627;
+}
+
+		</style>
+	</head>
+	<body class="reveal-viewport theme-font-montserrat theme-color-cobalt-orange">
+		<div class="reveal">
+			<div class="slides">
+				<section data-id="0056484a7c92e58c1d3d92c845ff4743"><div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 238px; height: auto;" data-block-id="923431b6fc5d3113d2c61cc14506a39c"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 11;" dir="ui"><h3>ReasonML: Predictable Frontend Programming</h3></div></div>
+<div class="sl-block" data-block-type="text" data-block-id="b001f4d79e13d075be4a0b424236bac1" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 180px; top: 392px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;">
+<p>Seif Ghezala</p>
+</div></div>
+</section><section data-id="1ebf1921d39931e337d60bc0b67e846d"><div class="sl-block" data-block-type="text" style="width: 806px; left: 80px; top: 43px; height: auto;" data-block-id="d413ff9b157d695c7c92afacd43517bb">
+    <div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 10;">
+<h1>Seif Ghezala 👋</h1>
+</div>
+</div>
+<div class="sl-block" data-block-type="text" style="width: 255px; left: 365px; top: 160px; height: auto;" data-block-id="248212c51dfdc1140c11badb14d65bfd">
+    <div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 11;">
+<h3>seif_ghezala</h3>
+</div>
+</div>
+
+<div class="sl-block" data-block-type="image" data-block-id="7199966ba7bf57eec1c159f935fba436" style="min-width: 4px; min-height: 4px; width: 46px; height: 37px; left: 311px; top: 167px;"><div class="sl-block-content" style="z-index: 12;"><img style="" data-natural-width="1140" data-natural-height="927" data-lazy-loaded="" data-src="reasonml-predictable-frontend-programming/ceb53154beba27d0427e7c5f87194428.png"></div></div>
+<div class="sl-block" data-block-type="image" data-block-id="5a0b7da55ff39371c277d10519726763" style="min-width: 4px; min-height: 4px; width: 541px; height: 275px; left: 213px; top: 280px;"><div class="sl-block-content" style="z-index: 16; border-style: solid; border-width: 1px; border-radius: 5px;"><img style="" data-natural-width="541" data-natural-height="275" data-lazy-loaded="" data-src="reasonml-predictable-frontend-programming/8407d450c58cdd5c6d9c9d02d4e6209c.png"></div></div>
+<div class="sl-block" data-block-type="shape" style="min-width: 4px; min-height: 4px; width: 35px; height: 42px; left: 326px; top: 435px;" data-block-id="05996305591d0e8bd0ef79a766a58afe">
+    <div class="sl-block-content fragment" data-shape-type="circle" data-shape-stretch="true" style="z-index: 17;" data-shape-fill-color="rgba(0, 0, 0, 0)" data-shape-stroke-color="#ff0000" data-shape-stroke-width="4px" data-fragment-index="2">
+        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 35 42"><defs><clippath id="shape-mask-3-1559274276379"><ellipse rx="17.5" ry="21" cx="17.5" cy="21"></ellipse></clippath></defs><ellipse rx="17.5" ry="21" cx="17.5" cy="21" clip-path="url(#shape-mask-3-1559274276379)" class="shape-element" fill="rgba(0, 0, 0, 0)" stroke="#ff0000" stroke-width="8"></ellipse></svg>
+    </div>
+</div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 107px; left: 370px; top: 435px;" data-block-id="6d896d8139d75cee5b8c9684a40b5a28"><div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 18;" data-fragment-index="2">
+<p style="text-align:left"><span style="font-size:0.9em"><strong><span style="color:#FF0000">Algeria</span></strong></span></p>
+</div></div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; min-width: 1px; min-height: 1px; left: 223px; top: 518px;" data-block-id="2ca641e92ee45d7431efca1ac7d00008"><div class="sl-block-content fragment" data-line-x1="-25" data-line-y1="147" data-line-x2="245" data-line-y2="147" data-line-color="#cc0000" data-line-start-type="none" data-line-end-type="none" style="z-index: 19;" data-line-width="4px" data-fragment-index="0"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="270" height="1" viewbox="-25 147 270 1"><line stroke="rgba(0,0,0,0)" stroke-width="15" x1="-25" y1="147" x2="245" y2="147"></line><line stroke="#cc0000" stroke-width="4" x1="-25" y1="147" x2="245" y2="147"></line></svg></div></div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; min-width: 1px; min-height: 1px; left: 501px; top: 518px;" data-block-id="af59f38a3e2f56e97feb16fab938e816"><div class="sl-block-content fragment" data-line-x1="-32" data-line-y1="147" data-line-x2="181" data-line-y2="147" data-line-color="#cc0000" data-line-start-type="none" data-line-end-type="none" style="z-index: 20;" data-line-width="4px" data-fragment-index="1"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="213" height="1" viewbox="-32 147 213 1"><line stroke="rgba(0,0,0,0)" stroke-width="15" x1="-32" y1="147" x2="181" y2="147"></line><line stroke="#cc0000" stroke-width="4" x1="-32" y1="147" x2="181" y2="147"></line></svg></div></div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; min-width: 1px; min-height: 1px; left: 229px; top: 543px;" data-block-id="84c1ad41eb8bbf567d6bf8a7a7c3367e"><div class="sl-block-content fragment" data-line-x1="-25" data-line-y1="147" data-line-x2="93" data-line-y2="147" data-line-color="#cc0000" data-line-start-type="none" data-line-end-type="none" style="z-index: 21;" data-line-width="4px" data-fragment-index="3"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="118" height="1" viewbox="-25 147 118 1"><line stroke="rgba(0,0,0,0)" stroke-width="15" x1="-25" y1="147" x2="93" y2="147"></line><line stroke="#cc0000" stroke-width="4" x1="-25" y1="147" x2="93" y2="147"></line></svg></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 38px; left: 358px; top: 510px;" data-block-id="c68750ac8dfffed767df13ded5b591c4"><div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 22;" data-fragment-index="3">
+<p style="text-align:left"><span style="font-size:0.7em">🇩🇪</span></p>
+</div></div></section><section data-id="1dac9cfaa5eae866dd7c4a1360b26158"><div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 238px; height: auto;" data-block-id="affb257e7665c37b31ca0bc675bd8f53"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 10;">
+<h2>ReasonML: Predictable Frontend Programming</h2>
+</div></div>
+
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 127px; left: 821px; top: 651px;" data-block-id="4ac4af13792cc4e445d631e85fa87cd2"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13;">
+<p><span style="font-size:0.7em">seif_ghezala</span></p>
+</div></div>
+<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 27px; height: 22px; left: 794px; top: 660px;" data-block-id="dc17808d2fc151baad6fc5a251e5c575"><div class="sl-block-content" style="z-index: 14;"><img style="" data-natural-width="1140" data-natural-height="927" data-lazy-loaded="" data-src="reasonml-predictable-frontend-programming/ceb53154beba27d0427e7c5f87194428.png"></div></div></section><section data-id="4e88b9ff717566727c11d88f30e7006f"><div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 235px; height: 235px; left: 68px; top: 233px;" data-block-id="eef5f50a4f327c1981cefd7e909347a4">
+    <div class="sl-block-content" style="z-index: 10; border-style: solid; border-width: 1px; border-radius: 200px;">
+        <img style="" data-natural-width="400" data-natural-height="400" data-lazy-loaded="" data-src="reasonml-predictable-frontend-programming/6f5ae5dc823efeb058a95e8f5816d4e9.png">
+    </div>
+</div>
+<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 528px; height: 244px; left: 401px; top: 228px;" data-block-id="ce5ffbe0632258fb7547dea70987e30e"><div class="sl-block-content" style="z-index: 12;"><img data-natural-width="1292" data-natural-height="598" style="" data-lazy-loaded="" data-src="reasonml-predictable-frontend-programming/21a3901af08c2f48aa802ac10aee7446.png"></div></div>
+<div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 42px; height: auto;" data-block-id="f553225ab222d565d271558070db9d9d"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 13;">
+<h2>Me + Reason = ❤️</h2>
+</div></div></section><section data-id="cf4012f9fb0555d6a4ad4cc375289f6a"><div class="sl-block" data-block-type="image" data-block-id="9d9452d9ed0ad3d6debc536a886eb1a2" style="min-width: 4px; min-height: 4px; width: 457px; height: 457px; left: 240px; top: 192px;"><div class="sl-block-content" style="z-index: 10;"><img style="" data-natural-width="768" data-natural-height="768" data-lazy-loaded="" data-src="reasonml-predictable-frontend-programming/ec30631fa0c3d8ff851a42f0b40df48e.png"></div></div>
+<div class="sl-block" data-block-type="text" data-block-id="2115812c7c66e3e4aa08f7c04188fd09" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 180px; top: 70px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;">
+<h2>Anssam</h2>
+</div></div>
+
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 127px; left: 821px; top: 651px;" data-block-id="492763aa390a39e99ed8f3ca8a949c55"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 14;">
+<p><span style="font-size:0.7em">seif_ghezala</span></p>
+</div></div>
+<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 27px; height: 22px; left: 794px; top: 660px;" data-block-id="e66d894cec28d14ab4ab25a9037b3c3c"><div class="sl-block-content" style="z-index: 15;"><img style="" data-natural-width="1140" data-natural-height="927" data-lazy-loaded="" data-src="reasonml-predictable-frontend-programming/ceb53154beba27d0427e7c5f87194428.png"></div></div></section><section data-id="5155d7f875c3f53a16016b06648084e4"><div class="sl-block" data-block-type="image" data-block-id="ceb09a6bd4ad572264dce40dc59fc194" style="min-width: 4px; min-height: 4px; width: 198px; height: 198px; left: 145px; top: 210px;">
+    <div class="sl-block-content" style="z-index: 10;">
+        <img style="" data-natural-width="768" data-natural-height="768" data-lazy-loaded="" data-src="reasonml-predictable-frontend-programming/da64f44d0a1aa3156f83958ed8a6313e.png">
+    </div>
+</div>
+<div class="sl-block" data-block-type="image" data-block-id="ca6ab70a4b401f6edc24afc65eede275" style="min-width: 4px; min-height: 4px; width: 190px; height: 198px; left: 465px; top: 210px;">
+    <div class="sl-block-content" style="z-index: 11;">
+        <img style="left: 0px; top: 0px; width: 297px; height: 198px;" data-natural-width="1600" data-natural-height="1065" data-crop-x="0" data-crop-y="0" data-crop-width="0.639731" data-crop-height="1" data-lazy-loaded="" data-src="reasonml-predictable-frontend-programming/4d976ed8f369b43b01c82fd046477d86.png">
+    </div>
+</div>
+<div class="sl-block" data-block-type="text" data-block-id="0c06dd5a8cee9e253f7a4f676d8f4029" style="height: auto; min-width: 30px; min-height: 30px; width: 54px; left: 374px; top: 251px;">
+    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;">
+        <h1>
+            <span style="font-size:1.2em">+</span>
+        </h1>
+    </div>
+</div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 88px; left: 676px; top: 251px;" data-block-id="39db2415aa8d04e1a7e4e5b07387fcc9">
+    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13;">
+        <h1>
+            <span style="font-size:90px">=</span>
+        </h1>
+    </div>
+</div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 88px; left: 777px; top: 251px;" data-block-id="b80e90bd67ec13cb6a98692726d9ed4f">
+    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 14;">
+        <h1>
+            <span style="font-size:1.2em">😩</span>
+        </h1>
+    </div>
+</div>
+
+<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 198px; height: 198px; left: 145px; top: 450px;" data-block-id="6cf52030b14dba8421a5b9e9f47cd8b4">
+    <div class="sl-block-content fragment" style="z-index: 15;" data-fragment-index="0">
+        <img style="" data-natural-width="768" data-natural-height="768" data-lazy-loaded="" data-src="reasonml-predictable-frontend-programming/da64f44d0a1aa3156f83958ed8a6313e.png">
+    </div>
+</div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 54px; left: 374px; top: 491px;" data-block-id="8aac4fc77db532a500efc30d2893e8b5">
+    <div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 16;" data-fragment-index="0">
+        <h1>
+            <span style="font-size:1.2em">+</span>
+        </h1>
+    </div>
+</div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 88px; left: 676px; top: 491px;" data-block-id="e3fee0adec42d87e80d6ddf1792b62cc">
+    <div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 18;" data-fragment-index="0">
+        <h1>
+            <span style="font-size:90px">=</span>
+        </h1>
+    </div>
+</div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 88px; left: 777px; top: 491px;" data-block-id="42b05661268e7eb39dcc800914c335f8">
+    <div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 20;" data-fragment-index="0">
+        <h1>
+            <span style="font-size:90px">😎</span>
+        </h1>
+    </div>
+</div>
+<div class="sl-block" data-block-type="image" data-block-id="81374111ad2ba80afa52259b97ebf729" style="min-width: 4px; min-height: 4px; width: 192px; height: 106px; left: 467px; top: 496px;">
+    <div class="sl-block-content coding fragment" style="z-index: 21; background: white;" data-fragment-index="0">
+        <img style="left: -10px; top: 0px; width: 212px; height: 106px;" data-natural-width="1200" data-natural-height="600" data-lazy-loaded="" data-crop-x="0.04717" data-crop-y="0" data-crop-width="0.90566" data-crop-height="1" data-src="reasonml-predictable-frontend-programming/2a65c2655db60ea057722e291779640c.png">
+    </div>
+</div>
+<div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 77px; height: auto;" data-block-id="079580511ff5fbeb6da3194f88c16459"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 22;">
+<h2>The struggle is real</h2>
+</div></div>
+
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 127px; left: 821px; top: 651px;" data-block-id="f1cae3cde4cca58366ee3160d78d1de8"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 23;">
+<p><span style="font-size:0.7em">seif_ghezala</span></p>
+</div></div>
+<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 27px; height: 22px; left: 794px; top: 660px;" data-block-id="515b2d27186a7c49b2e1960612c09ae6"><div class="sl-block-content" style="z-index: 24;"><img style="" data-natural-width="1140" data-natural-height="927" data-lazy-loaded="" data-src="reasonml-predictable-frontend-programming/ceb53154beba27d0427e7c5f87194428.png"></div></div></section><section data-id="dd27b8867e3e3589451f73d8a1f072d6"><div class="sl-block" data-block-type="text" style="width: 806px; left: 80px; top: 70px; height: auto;" data-block-id="961541348e802cc4902db2af7ee6614e">
+<div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;" dir="ui">
+<h2>Computer Eng. =&gt; <br>
+</h2>
+<h2>Software Eng. </h2>
+</div>
+<grammarly-extension style="position: absolute; top: 0px; left: 0px; pointer-events: none; z-index: 10;"><div data-grammarly-part="highlights" class="u_fNK" style="position: absolute; top: 0px; left: 0px;"><div style="box-sizing: content-box; top: 0px; left: 0px; width: 806px; height: 159.391px; position: relative; pointer-events: none; overflow: hidden; border: 0px; border-radius: 0px; padding: 0px; margin: 0px;"><div style="position: absolute; top: 0px; left: 0px;">
+<div style="height: 1239px; width: 2726px;"></div>
+<div style="position: absolute; top: 0px; left: 0px; height: 1239px; width: 2726px;"></div>
+</div></div></div>
+<div data-grammarly-part="button" class="u_fNK" style="position: absolute; top: 0px; left: 0px;"><div style="box-sizing: content-box; top: 0px; left: 0px; width: 806px; height: 159.391px; position: relative; pointer-events: none; overflow: hidden; border: 0px; border-radius: 0px; padding: 0px; margin: 0px;"><div style="position: absolute; transform: translate(-100%, -100%); top: 155.391px; left: 802px; width: auto; height: auto; pointer-events: all;"><div style="display: flex; flex-direction: row;"><div><div class="_5WizN _37oOc _1QzSN"><div class="_3YmQx"><div title="Protected by Grammarly" class="_3QdKe"> </div></div></div></div></div></div></div></div></grammarly-extension>
+</div>
+<div class="sl-block" data-block-type="text" style="width: 256px; left: 528px; top: 300px; height: auto;" data-block-id="4f9c91408d9a73bde7f51b179f21e177"><div class="sl-block-style" style="z-index: 11; transform: rotate(360deg);"><div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;" dir="ui" data-fragment-index="0">
+<h3>1. I can help.</h3>
+</div></div></div>
+<div class="sl-block" data-block-type="image" data-block-id="1d8478e2cfd656bebaa670d2e605fcef" style="min-width: 4px; min-height: 4px; width: 382px; height: 340px; left: 80px; top: 280px;"><div class="sl-block-content" style="z-index: 13;"><img style="left: 0px; top: 0px; width: 604px; height: 340px;" data-natural-width="702" data-natural-height="395" data-crop-x="0" data-crop-y="0" data-crop-width="0.632479" data-crop-height="1" data-lazy-loaded="" data-src="reasonml-predictable-frontend-programming/80d2b1a513a8bda234a6d8b86d680ec1.png"></div></div>
+<div class="sl-block" data-block-type="text" data-block-id="d7bc321b336702fb323ba5d12ca7169c" style="height: auto; min-width: 30px; min-height: 30px; width: 352px; left: 531px; top: 379px;"><div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 15;" data-fragment-index="1">
+<h3 style="color:rgb(255, 255, 255); text-align:left">2. Makes sense.</h3>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 352px; left: 527px; top: 459px;" data-block-id="c6182caa7a66998fe91271db755bd02d"><div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 16;" data-fragment-index="2" dir="ui"><h3 style="color:rgb(255, 255, 255); text-align:left">3. I can help.</h3></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 352px; left: 528px; top: 544px;" data-block-id="e62b3e8258e15bc5e06e2523336f6f32"><div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 17;" data-fragment-index="3">
+<h3 style="color:rgb(255, 255, 255); text-align:left">4. I can help.</h3>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 127px; left: 821px; top: 651px;" data-block-id="338c596126cfc121d8ce2d12c1454a3f"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 18;" dir="ui"><p><span style="font-size:0.7em">seif_ghezala</span></p></div></div>
+<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 27px; height: 22px; left: 794px; top: 660px;" data-block-id="40f534c4afd50028fd7e1f73a5254b5f"><div class="sl-block-content" style="z-index: 19;"><img style="" data-natural-width="1140" data-natural-height="927" data-lazy-loaded="" data-src="reasonml-predictable-frontend-programming/ceb53154beba27d0427e7c5f87194428.png"></div></div></section><section data-id="957f969f9dd3807f4c5caf51e1ee0bba"><div class="sl-block" data-block-type="text" style="width: 806px; left: 80px; top: 70px; height: auto;" data-block-id="694a4bc1cb0e4755549a2f4be17a53dd">
+<div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;" dir="ui">
+<h2>Intro to Functional Programming with OCaml</h2>
+</div>
+<grammarly-extension style="position: absolute; top: 0px; left: 0px; pointer-events: none; z-index: 10;"><div data-grammarly-part="highlights" class="u_fNK" style="position: absolute; top: 0px; left: 0px;"><div style="box-sizing: content-box; top: 0px; left: 0px; width: 806px; height: 159.391px; position: relative; pointer-events: none; overflow: hidden; border: 0px; border-radius: 0px; padding: 0px; margin: 0px;"><div style="position: absolute; top: 0px; left: 0px;">
+<div style="height: 1239px; width: 2726px;"></div>
+<div style="position: absolute; top: 0px; left: 0px; height: 1239px; width: 2726px;"></div>
+</div></div></div>
+<div data-grammarly-part="button" class="u_fNK" style="position: absolute; top: 0px; left: 0px;"><div style="box-sizing: content-box; top: 0px; left: 0px; width: 806px; height: 159.391px; position: relative; pointer-events: none; overflow: hidden; border: 0px; border-radius: 0px; padding: 0px; margin: 0px;"><div style="position: absolute; transform: translate(-100%, -100%); top: 155.391px; left: 802px; width: auto; height: auto; pointer-events: all;"><div style="display: flex; flex-direction: row;"><div><div class="_5WizN _37oOc _1QzSN"><div class="_3YmQx"><div title="Protected by Grammarly" class="_3QdKe"> </div></div></div></div></div></div></div></div></grammarly-extension>
+</div>
+<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 298px; height: 358px; left: 127px; top: 286px;" data-block-id="02b9db50cf21c5e1408872b98b9ab0d1"><div class="sl-block-content" style="z-index: 11;"><img style="" data-natural-width="500" data-natural-height="600" data-lazy-loaded="" data-src="reasonml-predictable-frontend-programming/a065c2322c5ce12eb19419bfde62373c.gif"></div></div>
+<div class="sl-block" data-block-type="text" style="width: 387px; left: 500px; top: 280px; height: auto;" data-block-id="027ae900f8697a5cb620bbba09585659"><div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12; text-align: left;" data-fragment-index="0">
+<h3>1. <span style="color:#FF0000">Doesn't</span> make sense.</h3>
+</div></div>
+<div class="sl-block" data-block-type="text" data-block-id="408c53c7fc363835d663c06debb6e9a3" style="height: auto; min-width: 30px; min-height: 30px; width: 407px; left: 500px; top: 420px;"><div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13;" data-fragment-index="1">
+<h3 style="color:rgb(255, 255, 255); text-align:left">2. I can<span style="color:rgb(255, 0, 0)">'t</span> <span style="color:rgb(255, 0, 0)">really</span> help.</h3>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 407px; left: 500px; top: 535px;" data-block-id="b7993cb9277a42e1e8ced8a2d31dd081"><div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 14;" data-fragment-index="1">
+<h1 style="color: rgb(255, 255, 255);"><span style="font-size:1.4em">😬</span></h1>
+</div></div>
+
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 127px; left: 821px; top: 651px;" data-block-id="a7c31cc47408e07abeeff665f742382d"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 17;">
+<p><span style="font-size:0.7em">seif_ghezala</span></p>
+</div></div>
+<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 27px; height: 22px; left: 794px; top: 660px;" data-block-id="e316bdb81a4f75f87ef4332b8c7016d2"><div class="sl-block-content" style="z-index: 18;"><img style="" data-natural-width="1140" data-natural-height="927" data-lazy-loaded="" data-src="reasonml-predictable-frontend-programming/ceb53154beba27d0427e7c5f87194428.png"></div></div></section><section data-id="e9c2081f7cac07f326bb9d6dde732493"><div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 42px; height: auto;" data-block-id="bfd3208175ba1a810b291779c7e17c4b"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;">
+<h2>We can do this 💪</h2>
+</div></div>
+<div class="sl-block" data-block-type="image" data-block-id="25c175c125b1cb3f818573f5e7612efb" style="min-width: 4px; min-height: 4px; width: 395px; height: 518px; left: 85px; top: 161px;"><div class="sl-block-content" style="z-index: 11;"><img style="" data-natural-width="1029" data-natural-height="1350" data-lazy-loaded="" data-src="reasonml-predictable-frontend-programming/49989a841e6c3794caa9b473ec561f02.png"></div></div>
+<div class="sl-block" data-block-type="text" data-block-id="edbd15dcfac2b8726f818c3caebafab0" style="height: auto; min-width: 30px; min-height: 30px; width: 140px; left: 480px; top: 379px;"><div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;" data-fragment-index="0">
+<h1><span style="font-size:1.8em">😍</span></h1>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 140px; left: 369px; top: 175px;" data-block-id="68f35260d817227efebd532fc2789243"><div class="sl-block-content fragment fade-down" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13;" data-fragment-index="0">
+<h1><span style="font-size:1.8em">😍</span></h1>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 140px; left: 689px; top: 123px;" data-block-id="0b73f99b0c508d779f08186d5a652d93"><div class="sl-block-content fragment fade-down" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 14;" data-fragment-index="0">
+<h1><span style="font-size:1.8em">😍</span></h1>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 140px; left: 311px; top: 476px;" data-block-id="8076bcdf93c1859f1378f3396b1bff15"><div class="sl-block-content fragment fade-up" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 15;" data-fragment-index="0">
+<h1><span style="font-size:1.8em">😍</span></h1>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 140px; left: 654px; top: 273px;" data-block-id="966bed07b8daf20e07c814bfa7d7ac53"><div class="sl-block-content fragment fade-up" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 16;" data-fragment-index="0">
+<h1><span style="font-size:1.8em">😍</span></h1>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 140px; left: 619px; top: 515px;" data-block-id="02de916085dc20dc4fd48b1b5b567b0c"><div class="sl-block-content fragment fade-up" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 18;" data-fragment-index="0">
+<h1><span style="font-size:1.8em">😍</span></h1>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 140px; left: 126px; top: 140px;" data-block-id="d3da734ce5aaf6d6fcd250b5b270d62c"><div class="sl-block-content fragment fade-left" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 20;" data-fragment-index="0">
+<h1><span style="font-size:1.8em">😍</span></h1>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 140px; left: 196px; top: 333px;" data-block-id="dd8a61a47a41ccc75e6f56bd605ca421"><div class="sl-block-content fragment fade-right" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 21;" data-fragment-index="0">
+<h1><span style="font-size:1.8em">😍</span></h1>
+</div></div>
+
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 127px; left: 821px; top: 651px;" data-block-id="23970c2a034cbb6d73e68731882ae714"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 22;">
+<p><span style="font-size:0.7em">seif_ghezala</span></p>
+</div></div>
+<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 27px; height: 22px; left: 794px; top: 660px;" data-block-id="90bb9f62ec667e822b44a682a0910b44"><div class="sl-block-content" style="z-index: 23;"><img style="" data-natural-width="1140" data-natural-height="927" data-lazy-loaded="" data-src="reasonml-predictable-frontend-programming/ceb53154beba27d0427e7c5f87194428.png"></div></div></section><section data-id="cabd790c88be03651fbc6d3545faec27"><div class="sl-block" data-block-type="text" style="width: 806px; left: 76px; top: 42px; height: auto;" data-block-id="9b1246702ba37328d3e3760090710ba5"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;">
+<h2>Reason... whaaat?</h2>
+</div></div>
+<div class="sl-block" data-block-type="image" data-block-id="9a2bf832ca4a924a3e4035c40c899bda" style="min-width: 4px; min-height: 4px; width: 528px; height: 244px; left: 223px; top: 210px;"><div class="sl-block-content" style="z-index: 11;"><img data-natural-width="1292" data-natural-height="598" style="" data-lazy-loaded="" data-src="reasonml-predictable-frontend-programming/21a3901af08c2f48aa802ac10aee7446.png"></div></div>
+<div class="sl-block" data-block-type="image" data-block-id="c31ceb8b7a07704b3bea1d83b3ec8c39" style="min-width: 4px; min-height: 4px; width: 116px; height: 116px; left: 225px; top: 472px;"><div class="sl-block-content" style="z-index: 12;"><img data-natural-width="225" data-natural-height="225" style="" data-lazy-loaded="" data-src="reasonml-predictable-frontend-programming/3d149d08b1f00bf17654be8e464cf1ac.png"></div></div>
+<div class="sl-block" data-block-type="image" data-block-id="4aa21a3660c34a61825a6fde1508b000" style="min-width: 4px; min-height: 4px; width: 116px; height: 116px; left: 637px; top: 472px;"><div class="sl-block-content" style="z-index: 13;"><img data-natural-width="1200" data-natural-height="1200" style="" data-lazy-loaded="" data-src="reasonml-predictable-frontend-programming/2b6353a701fa71b19dd848386bb65871.png"></div></div>
+<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 217px; height: 116px; left: 381px; top: 472px;" data-block-id="bd8103124c6efbf0b93ab05fd28924c8"><div class="sl-block-content" style="z-index: 14;"><img data-natural-width="800" data-natural-height="507" style="left: -55px; top: -53px; width: 335px; height: 212px;" data-lazy-loaded="" data-crop-x="0.163855" data-crop-y="0.250951" data-crop-width="0.648193" data-crop-height="0.547528" data-src="reasonml-predictable-frontend-programming/98515b32c1cd6ccb96123c7347c60127.png"></div></div>
+
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 127px; left: 821px; top: 651px;" data-block-id="e4a063b0de26c7b3eaf280ac65f51864"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 17;">
+<p><span style="font-size:0.7em">seif_ghezala</span></p>
+</div></div>
+<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 27px; height: 22px; left: 794px; top: 660px;" data-block-id="a53c01cf44bfad30b42c2b07e83dd80b"><div class="sl-block-content" style="z-index: 18;"><img style="" data-natural-width="1140" data-natural-height="927" data-lazy-loaded="" data-src="reasonml-predictable-frontend-programming/ceb53154beba27d0427e7c5f87194428.png"></div></div></section><section data-id="6124bd4ced114bab8932474fed665fa4"><div class="sl-block" data-block-type="image" data-block-id="915d5984bcac06a993a11187477d8b5d" style="min-width: 4px; min-height: 4px; width: 806px; height: 380px; left: 77px; top: 160px;"><div class="sl-block-content" style="z-index: 10;"><img style="" data-natural-width="1278" data-natural-height="602" data-lazy-loaded="" data-src="reasonml-predictable-frontend-programming/8b35f695e10973dbf302791f7a0c59ec.png"></div></div>
+
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 127px; left: 821px; top: 651px;" data-block-id="60fdcf379d712ff05a48645f3e7b9e7e"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13;">
+<p><span style="font-size:0.7em">seif_ghezala</span></p>
+</div></div>
+<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 27px; height: 22px; left: 794px; top: 660px;" data-block-id="ed23362abc7cdef905e34d297ec6fd72"><div class="sl-block-content" style="z-index: 14;"><img style="" data-natural-width="1140" data-natural-height="927" data-lazy-loaded="" data-src="reasonml-predictable-frontend-programming/ceb53154beba27d0427e7c5f87194428.png"></div></div></section><section data-id="563920cec10b2521725400b112c54fdb"><div class="sl-block" data-block-type="text" style="width: 806px; left: 94px; top: 41px; height: auto;" data-block-id="ea63e15b99eaf53514857a61e3daf358"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;">
+<h2>Reason... in production?</h2>
+</div></div>
+<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 500px; height: 375px; left: 230px; top: 210px;" data-block-id="2d60384fd7ee087207d0f7f2512b235e"><div class="sl-block-content" style="z-index: 11;"><img data-natural-width="500" data-natural-height="375" style="" data-lazy-loaded="" data-src="reasonml-predictable-frontend-programming/c8dcfd88be3fefb11c618741d0abe9a2.gif"></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 127px; left: 821px; top: 651px;" data-block-id="61bb719f7e9ff75fdfd69520acc730b6"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 14;">
+<p><span style="font-size:0.7em">seif_ghezala</span></p>
+</div></div>
+<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 27px; height: 22px; left: 794px; top: 660px;" data-block-id="82a7fee91a43d464dc81938c0c3845ed"><div class="sl-block-content" style="z-index: 15;"><img style="" data-natural-width="1140" data-natural-height="927" data-lazy-loaded="" data-src="reasonml-predictable-frontend-programming/ceb53154beba27d0427e7c5f87194428.png"></div></div></section><section data-id="bae9aba9d8f5398fc9993fce41332671"><div class="sl-block" data-block-type="image" data-block-id="d3d43c595ff88a05ba11e03f5ce70201" style="min-width: 4px; min-height: 4px; width: 357px; height: 274px; left: 55px; top: 37px;"><div class="sl-block-content" style="z-index: 10;"><img style="left: 0px; top: 0px; width: 357px; height: 296px;" data-natural-width="810" data-natural-height="671" data-crop-x="0" data-crop-y="0" data-crop-width="1" data-crop-height="0.926647" data-lazy-loaded="" data-src="reasonml-predictable-frontend-programming/c89a5b2f125113839cfec356023f6f54.png"></div></div>
+<div class="sl-block" data-block-type="image" data-block-id="ca5afc4f64dfa608fe2d4928686c784c" style="min-width: 4px; min-height: 4px; width: 300px; height: 335px; left: 90px; top: 333px;"><div class="sl-block-content" style="z-index: 11;"><img style="" data-natural-width="763" data-natural-height="852" data-lazy-loaded="" data-src="reasonml-predictable-frontend-programming/4f93539cf9e82b820ae1722bf88d60ca.png"></div></div>
+<div class="sl-block" data-block-type="image" data-block-id="25be9f4fdef587c2ef6a139dfc8507cd" style="min-width: 4px; min-height: 4px; width: 440px; height: 113px; left: 444px; top: 37px;"><div class="sl-block-content" style="z-index: 12;"><img style="left: 0px; top: -13px; width: 440px; height: 126px;" data-natural-width="590" data-natural-height="169" data-crop-x="0" data-crop-y="0.103175" data-crop-width="1" data-crop-height="0.896825" data-lazy-loaded="" data-src="reasonml-predictable-frontend-programming/fb7814af4fa2b3b04da333adec5bcece.png"></div></div>
+<div class="sl-block" data-block-type="image" data-block-id="fd9438d4856b8362e7bb06fdc5e891c0" style="min-width: 4px; min-height: 4px; width: 444px; height: 118px; left: 444px; top: 168px;"><div class="sl-block-content" style="z-index: 13;"><img data-natural-width="595" data-natural-height="153" style="left: 0px; top: 0px; width: 457px; height: 118px;" data-crop-x="0" data-crop-y="0" data-crop-width="0.971554" data-crop-height="1" data-lazy-loaded="" data-src="reasonml-predictable-frontend-programming/23a76ed1584fb685f5a163556a4c76a6.png"></div></div>
+<div class="sl-block" data-block-type="image" data-block-id="ac1a368e6c223ba35418d8abbc982991" style="min-width: 4px; min-height: 4px; width: 447px; height: 112px; left: 444px; top: 302px;"><div class="sl-block-content" style="z-index: 14;"><img data-natural-width="593" data-natural-height="147" style="left: 0px; top: 0px; width: 452px; height: 112px;" data-crop-x="0" data-crop-y="0" data-crop-width="0.988938" data-crop-height="1" data-lazy-loaded="" data-src="reasonml-predictable-frontend-programming/32ddd18fd52139503ea19f2e1ca9e86f.png"></div></div>
+<div class="sl-block" data-block-type="image" data-block-id="141f561914b2335a1aed506fe9bd3a02" style="min-width: 4px; min-height: 4px; width: 315px; height: 250px; left: 438px; top: 428px;"><div class="sl-block-content" style="z-index: 15;"><img style="" data-natural-width="814" data-natural-height="646" data-lazy-loaded="" data-src="reasonml-predictable-frontend-programming/d265b8526f02636dbe0fa64a017eecab.png"></div></div>
+
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 127px; left: 821px; top: 651px;" data-block-id="9b0346d56740f0cfbfa0e4c569899350"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 18;">
+<p><span style="font-size:0.7em">seif_ghezala</span></p>
+</div></div>
+<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 27px; height: 22px; left: 794px; top: 660px;" data-block-id="6a5135891dc06b554514f513a893d6bd"><div class="sl-block-content" style="z-index: 19;"><img style="" data-natural-width="1140" data-natural-height="927" data-lazy-loaded="" data-src="reasonml-predictable-frontend-programming/ceb53154beba27d0427e7c5f87194428.png"></div></div></section><section data-id="c22f206ca27c7f32f6cb039865a01dbd"><div class="sl-block" data-block-type="text" style="width: 426px; left: 22px; top: 344px; height: auto;" data-block-id="6d15655f60ac85120bb026b64c17276a">
+<div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;" dir="ui"><h3>JavaScript, TypeScript and ReasonML: comparing their type systems</h3></div>
+<grammarly-extension style="position: absolute; top: 0px; left: 0px; pointer-events: none; z-index: 10;"><div data-grammarly-part="highlights" class="u_fNK" style="position: absolute; top: 0px; left: 0px;"><div style="box-sizing: content-box; top: 0px; left: 0px; width: 806px; height: 528.281px; position: relative; pointer-events: none; overflow: hidden; border: 0px; border-radius: 0px; padding: 0px; margin: 0px;"><div style="position: absolute; top: 0px; left: 0px;">
+<div style="height: 1608px; width: 2726px;">
+<div class="_3F-Wk _3mEyK" style="top: 296.891px; left: 45px; width: 301px; height: 69px;"></div>
+<div class="_3F-Wk _3mEyK" style="top: 2px; left: 696px; width: 108.812px; height: 69px;"></div>
+<div class="_3F-Wk _3mEyK" style="top: 76px; left: 45px; width: 301px; height: 69px;"></div>
+</div>
+<div style="position: absolute; top: 0px; left: 0px; height: 1608px; width: 2726px;"></div>
+</div></div></div>
+<div data-grammarly-part="button" class="u_fNK" style="position: absolute; top: 0px; left: 0px;"><div style="box-sizing: content-box; top: 0px; left: 0px; width: 806px; height: 528.281px; position: relative; pointer-events: none; overflow: hidden; border: 0px; border-radius: 0px; padding: 0px; margin: 0px;"><div style="position: absolute; transform: translate(-100%, -100%); top: 524.281px; left: 802px; width: auto; height: auto; pointer-events: all;"><div style="display: flex; flex-direction: row;"><div><div class="_5WizN _34Jb6 _37oOc _1QzSN"><div class="_3YmQx"><div title="Found 3 errors in text" class="_3QdKe">3</div></div></div></div></div></div></div></div></grammarly-extension>
+</div>
+<div class="sl-block" data-block-type="text" data-block-id="22b15016557a793fed29e9ac7c88a683" style="height: auto; min-width: 30px; min-height: 30px; width: 487px; left: 460px; top: 350px;"><div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;" data-fragment-index="0">
+<h3 style="color:rgb(255, 255, 255)">Demo: is Reason ready for production React applications?</h3>
+</div></div>
+<div class="sl-block" data-block-type="image" style="width: 310px; height: 265px; left: 100px; top: 52px; min-width: 4px; min-height: 4px;" data-block-id="d1851e540e3a0d371ed30fc9251e3e6c"><div class="sl-block-content" style="z-index: 13;"><img style="" data-natural-width="1578" data-natural-height="1350" data-lazy-loaded="" data-src="reasonml-predictable-frontend-programming/24068a382d306798d51b1f8c115d34da.png"></div></div>
+<div class="sl-block" data-block-type="image" data-block-id="5631acb492c6368dd6ed12efa35b518b" style="min-width: 4px; min-height: 4px; width: 213px; height: 213px; left: 490px; top: 70px;"><div class="sl-block-content fragment" style="z-index: 14;" data-fragment-index="0"><img data-natural-width="400" data-natural-height="400" style="" data-lazy-loaded="" data-src="reasonml-predictable-frontend-programming/a09bdf4b831b13510f64c649a14131e1.png"></div></div>
+<div class="sl-block" data-block-type="image" data-block-id="bce7e443a9c46d8e735c344cb8591cef" style="min-width: 4px; min-height: 4px; width: 347px; height: 245px; left: 665px; top: 62px;"><div class="sl-block-content fragment" style="z-index: 15;" data-fragment-index="0"><img style="" data-natural-width="1200" data-natural-height="848" data-lazy-loaded="" data-src="reasonml-predictable-frontend-programming/8cfc49229feaee74c430774935d6801d.png"></div></div>
+
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 127px; left: 821px; top: 651px;" data-block-id="fe8ad318261485f791905a9f5fae61f3"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 16;">
+<p><span style="font-size:0.7em">seif_ghezala</span></p>
+</div></div>
+<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 27px; height: 22px; left: 794px; top: 660px;" data-block-id="0a97e2ef7c2a68ef55223b0483e2a69f"><div class="sl-block-content" style="z-index: 17;"><img style="" data-natural-width="1140" data-natural-height="927" data-lazy-loaded="" data-src="reasonml-predictable-frontend-programming/ceb53154beba27d0427e7c5f87194428.png"></div></div></section><section data-id="0c3dedd639b973f7c09821ad49ef0835"><div class="sl-block" data-block-type="text" style="width: 806px; left: 76px; top: 42px; height: auto;" data-block-id="2b4fe33c0ffcd2cd425fa9d372f01a18"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;">
+<h3>JavaScript, TypeScript and ReasonML: comparing their type systems</h3>
+</div></div>
+<div class="sl-block" data-block-type="image" style="width: 541px; height: 463px; left: 209px; top: 210px; min-width: 4px; min-height: 4px;" data-block-id="af0945250560097f77147d2662a69772"><div class="sl-block-content" style="z-index: 11;"><img style="" data-natural-width="1578" data-natural-height="1350" data-lazy-loaded="" data-src="reasonml-predictable-frontend-programming/24068a382d306798d51b1f8c115d34da.png"></div></div>
+
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 127px; left: 821px; top: 651px;" data-block-id="b5f8a3d47952532f943b12f0ec6e41b5"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 14;">
+<p><span style="font-size:0.7em">seif_ghezala</span></p>
+</div></div>
+<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 27px; height: 22px; left: 794px; top: 660px;" data-block-id="20507f9a4915ec3bce28e1c1950d5100"><div class="sl-block-content" style="z-index: 15;"><img style="" data-natural-width="1140" data-natural-height="927" data-lazy-loaded="" data-src="reasonml-predictable-frontend-programming/ceb53154beba27d0427e7c5f87194428.png"></div></div></section><section data-id="fc0609581cf33646a9e9fbc9d097613a"><div class="sl-block" data-block-type="text" style="width: 333px; left: 0px; top: 268px; height: auto;" data-block-id="2d2758d48eafe17f641e719446c5ca78"><div class="sl-block-content fragment fade-right" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;" data-fragment-index="0">
+<h2><span style="font-size:0.9em">JavaScript</span></h2>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 330px; left: 630px; top: 268px; height: auto;" data-block-id="d2d3192b0281e51358ec427a8be07d16"><div class="sl-block-content fragment fade-left" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 11;" data-fragment-index="2">
+<h2><span style="font-size:0.9em">TypeScript</span></h2>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 227px; left: 377px; top: 268px; height: auto;" data-block-id="03fc14647c234183eb1c4284c5c1506f">
+<div class="sl-block-style" style="z-index: 12; transform: rotate(360deg);"><div class="sl-block-content fragment fade-up" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 12;" dir="ui" data-fragment-index="1">
+<h2><span style="font-size:0.9em">Reason</span></h2>
+</div></div>
+<grammarly-extension style="position: absolute; top: 0px; left: 0px; pointer-events: none; z-index: 13;"><div data-grammarly-part="highlights" class="u_fNK" style="position: absolute; top: 0px; left: 0px;"><div style="box-sizing: content-box; top: 0px; left: 0px; width: 806px; height: 74px; position: relative; pointer-events: none; overflow: hidden; border: 0px; border-radius: 0px; padding: 0px; margin: 0px;"><div style="position: absolute; top: 0px; left: 0px;">
+<div style="height: 1154px; width: 2726px;"></div>
+<div style="position: absolute; top: 0px; left: 0px; height: 1154px; width: 2726px;"></div>
+</div></div></div>
+<div data-grammarly-part="button" class="u_fNK" style="position: absolute; top: 0px; left: 0px;"><div style="box-sizing: content-box; top: 0px; left: 0px; width: 806px; height: 74px; position: relative; pointer-events: none; overflow: hidden; border: 0px; border-radius: 0px; padding: 0px; margin: 0px;"><div style="position: absolute; transform: translate(-100%, -100%); top: 70px; left: 802px; width: auto; height: auto; pointer-events: all;"><div style="display: flex; flex-direction: row;"><div><div class="_5WizN _1QzSN"><div class="_3YmQx"><div title="Protected by Grammarly" class="_3QdKe"> </div></div></div></div></div></div></div></div></grammarly-extension>
+</div>
+<div class="sl-block" data-block-type="text" data-block-id="1a56abceab3a9af0b03ea069615aa84b" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 180px; top: 51px;">
+<div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13;" dir="ui">
+<h2>Type checking time</h2>
+</div>
+<grammarly-extension style="position: absolute; top: 0px; left: 0px; pointer-events: none; z-index: 14;"><div data-grammarly-part="highlights" class="u_fNK" style="position: absolute; top: 0px; left: 0px;"><div style="box-sizing: content-box; top: 0px; left: 0px; width: 600px; height: 159.391px; position: relative; pointer-events: none; overflow: hidden; border: 0px; border-radius: 0px; padding: 0px; margin: 0px;"><div style="position: absolute; top: 0px; left: 0px;">
+<div style="height: 1239px; width: 2520px;"></div>
+<div style="position: absolute; top: 0px; left: 0px; height: 1239px; width: 2520px;"></div>
+</div></div></div>
+<div data-grammarly-part="button" class="u_fNK" style="position: absolute; top: 0px; left: 0px;"><div style="box-sizing: content-box; top: 0px; left: 0px; width: 600px; height: 159.391px; position: relative; pointer-events: none; overflow: hidden; border: 0px; border-radius: 0px; padding: 0px; margin: 0px;"><div style="position: absolute; transform: translate(-100%, -100%); top: 155.391px; left: 596px; width: auto; height: auto; pointer-events: all;"><div style="display: flex; flex-direction: row;"><div></div></div></div></div></div></grammarly-extension>
+</div>
+
+
+
+
+
+
+<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 135px; height: 160px; left: 419px; top: 350px;" data-block-id="1682ad84a6590a802ce67a761b776334"><div class="sl-block-content fragment fade-up" style="z-index: 14;" data-fragment-index="1"><img style="left: -128px; top: 0px; width: 494px; height: 328px;" data-natural-width="600" data-natural-height="400" data-crop-x="0.258333" data-crop-y="0" data-crop-width="0.273333" data-crop-height="0.4875" data-lazy-loaded="" data-src="reasonml-predictable-frontend-programming/b734e1b6b0ac2b3b825f19f146000c6e.png"></div></div>
+<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 130px; height: 151px; left: 729px; top: 360px;" data-block-id="7ecf5d4796e6f3ef8656936cbae678c9"><div class="sl-block-content fragment fade-left" style="z-index: 15;" data-fragment-index="2"><img style="left: -230px; top: 0px; width: 600px; height: 299px;" data-natural-width="600" data-natural-height="299" data-crop-x="0.383333" data-crop-y="0" data-crop-width="0.216667" data-crop-height="0.505017" data-lazy-loaded="" data-src="reasonml-predictable-frontend-programming/2ba22f6c9706406cc63bbf1eefc66059.png"></div></div>
+<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 133px; height: 151px; left: 100px; top: 359px;" data-block-id="fab823ed9c2950ce32e242cb44203346"><div class="sl-block-content fragment fade-right" style="z-index: 16;" data-fragment-index="0"><img style="left: -12px; top: 0px; width: 174px; height: 174px;" data-natural-width="600" data-natural-height="600" data-crop-x="0.069498" data-crop-y="0" data-crop-width="0.762548" data-crop-height="0.866795" data-lazy-loaded="" data-src="reasonml-predictable-frontend-programming/b69bc83628a8090e5c14927ec4326103.png"></div></div>
+
+
+
+
+
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 127px; left: 821px; top: 651px;" data-block-id="ad76e526356ffeaf824efc4168ca8a9c"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 23;">
+<p><span style="font-size:0.7em">seif_ghezala</span></p>
+</div></div>
+<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 27px; height: 22px; left: 794px; top: 660px;" data-block-id="c1ebd7982e80e67a93f367b28add9d83"><div class="sl-block-content" style="z-index: 24;"><img style="" data-natural-width="1140" data-natural-height="927" data-lazy-loaded="" data-src="reasonml-predictable-frontend-programming/ceb53154beba27d0427e7c5f87194428.png"></div></div></section><section data-id="e79c63a070cd13dd0aab605708e0e7dc"><div class="sl-block" data-block-type="text" style="width: 806px; left: 80px; top: 103px; height: auto;" data-block-id="3076c3218e5c28d8c5fad29dcfc1b3d4"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;">
+<h2>Dynamic typing: JavaScript</h2>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 806px; left: 90px; top: 444px; height: auto;" data-block-id="58ef8ba018534f9679f59d3c120359e9">
+<div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;" dir="ui">
+<h3>At compile-time</h3>
+
+<ul>
+	<li>Only the declaration of "<em>name</em>" is considered.</li>
+	<li>
+	<p>Type of <em>"name" </em>?</p>
+	</li>
+</ul>
+</div>
+<grammarly-extension style="position: absolute; top: 0px; left: 0px; pointer-events: none; z-index: 12;"><div data-grammarly-part="highlights" class="u_fNK" style="position: absolute; top: 0px; left: 0px;"><div style="box-sizing: content-box; top: 0px; left: 0px; width: 806px; height: 152.75px; position: relative; pointer-events: none; overflow: hidden; border: 0px; border-radius: 0px; padding: 0px; margin: 0px;"><div style="position: absolute; top: 0px; left: 0px;">
+<div style="height: 1233px; width: 2726px;"></div>
+<div style="position: absolute; top: 0px; left: 0px; height: 1233px; width: 2726px;"></div>
+</div></div></div>
+<div data-grammarly-part="button" class="u_fNK" style="position: absolute; top: 0px; left: 0px;"><div style="box-sizing: content-box; top: 0px; left: 0px; width: 806px; height: 152.75px; position: relative; pointer-events: none; overflow: hidden; border: 0px; border-radius: 0px; padding: 0px; margin: 0px;"><div style="position: absolute; transform: translate(-100%, -100%); top: 148.75px; left: 802px; width: auto; height: auto; pointer-events: all;"><div style="display: flex; flex-direction: row;"><div></div></div></div></div></div></grammarly-extension>
+</div>
+<div class="sl-block" data-block-type="code" data-block-id="96a601a7f4f46e2ea3b839d451b2e7d4" style="min-width: 30px; min-height: 30px; width: 500px; height: 119px; left: 244px; top: 251px;"><div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="osx" style="z-index: 12;"><pre class="javascript"><code data-line-numbers="1|1-2|">let name = "John";
+typeof name; // output: "string"</code></pre></div></div>
+<div class="sl-block" data-block-type="image" style="width: 133px; height: 151px; left: 51px; top: 245px; min-width: 4px; min-height: 4px;" data-block-id="2b23f1b03c328cf791361aa52f2d6721"><div class="sl-block-content" style="z-index: 13;"><img style="left: -12px; top: 0px; width: 174px; height: 174px;" data-natural-width="600" data-natural-height="600" data-crop-x="0.069498" data-crop-y="0" data-crop-width="0.762548" data-crop-height="0.866795" data-lazy-loaded="" data-src="reasonml-predictable-frontend-programming/b69bc83628a8090e5c14927ec4326103.png"></div></div>
+
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 127px; left: 821px; top: 651px;" data-block-id="48fe5e6a211b509d73aad155f8d3c951"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 16;">
+<p><span style="font-size:0.7em">seif_ghezala</span></p>
+</div></div>
+<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 27px; height: 22px; left: 794px; top: 660px;" data-block-id="95bde5ec6153b2c654eb95e87801a85b"><div class="sl-block-content" style="z-index: 17;"><img style="" data-natural-width="1140" data-natural-height="927" data-lazy-loaded="" data-src="reasonml-predictable-frontend-programming/ceb53154beba27d0427e7c5f87194428.png"></div></div></section><section data-id="5218a207535cb60e32f11ed631979e87"><div class="sl-block" data-block-type="text" style="width: 806px; left: 80px; top: 103px; height: auto;" data-block-id="efaf3d60686c2b75eb2295bfc5046e2a"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;">
+<h2>Dynamic typing: JavaScript</h2>
+</div></div>
+<div class="sl-block" data-block-type="code" style="width: 511px; height: 279px; left: 240px; top: 251px;" data-block-id="7c361912c4287739f6fbdcce457a2730"><div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="osx" style="z-index: 11; transition-duration: 0.6s; transition-delay: 0.6s;" data-animation-type="slide-down"><pre class="javascript"><code data-line-numbers="1-2|4-5|7-8|10-11|1-11">let name;
+typeof name; // output: "undefined"
+
+name = "John";
+typeof name; // output: "string";
+
+name = 14;
+typeof name; // output: "number"
+
+name = true;
+typeof name; // output: "boolean"</code></pre></div></div>
+<div class="sl-block" data-block-type="image" style="width: 133px; height: 151px; left: 44px; top: 296px; min-width: 4px; min-height: 4px;" data-block-id="f2b1e9c660fb1b8d788537df6160412d"><div class="sl-block-content" style="z-index: 12;"><img style="left: -12px; top: 0px; width: 174px; height: 174px;" data-natural-width="600" data-natural-height="600" data-crop-x="0.069498" data-crop-y="0" data-crop-width="0.762548" data-crop-height="0.866795" data-lazy-loaded="" data-src="reasonml-predictable-frontend-programming/b69bc83628a8090e5c14927ec4326103.png"></div></div>
+
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 127px; left: 821px; top: 651px;" data-block-id="a3aa31fe79bb287cdd4f4bea9c01f673"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 15;">
+<p><span style="font-size:0.7em">seif_ghezala</span></p>
+</div></div>
+<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 27px; height: 22px; left: 794px; top: 660px;" data-block-id="3af1e451bd6006d09c4d93ea989a78c6"><div class="sl-block-content" style="z-index: 16;"><img style="" data-natural-width="1140" data-natural-height="927" data-lazy-loaded="" data-src="reasonml-predictable-frontend-programming/ceb53154beba27d0427e7c5f87194428.png"></div></div></section><section data-id="50e2b7790bf61a26008f3649a010d00b"><div class="sl-block" data-block-type="text" style="width: 806px; left: 80px; top: 103px; height: auto;" data-block-id="76f47e0bac50c0f9dbbb6ca8cfc169a6"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;">
+<h2>Static typing: ReasonML</h2>
+</div></div>
+<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 338px; height: 138px; left: 320px; top: 250px;" data-block-id="10d4274d7c996426a3e142df63a08dfb"><div class="sl-block-content" style="z-index: 11; border-width: 1px; border-style: solid;"><img data-natural-width="490" data-natural-height="200" style="" data-lazy-loaded="" data-src="reasonml-predictable-frontend-programming/531373ae9666b68e4c86f32a79088db9.gif"></div></div>
+<div class="sl-block" data-block-type="text" style="width: 806px; left: 86px; top: 443px; height: auto;" data-block-id="cdb352b8638629f072e383e8b5caeadd">
+<div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;" dir="ui" data-fragment-index="0">
+<h3>At compile-time "<em>name</em>" is associated with type <em>"string"</em>.</h3>
+</div>
+<grammarly-extension style="position: absolute; top: 0px; left: 0px; pointer-events: none; z-index: 12;"><div data-grammarly-part="highlights" class="u_fNK" style="position: absolute; top: 0px; left: 0px;"><div style="box-sizing: content-box; top: 0px; left: 0px; width: 806px; height: 152.75px; position: relative; pointer-events: none; overflow: hidden; border: 0px; border-radius: 0px; padding: 0px; margin: 0px;"><div style="position: absolute; top: 0px; left: 0px;">
+<div style="height: 1233px; width: 2726px;"></div>
+<div style="position: absolute; top: 0px; left: 0px; height: 1233px; width: 2726px;"></div>
+</div></div></div>
+<div data-grammarly-part="button" class="u_fNK" style="position: absolute; top: 0px; left: 0px;"><div style="box-sizing: content-box; top: 0px; left: 0px; width: 806px; height: 152.75px; position: relative; pointer-events: none; overflow: hidden; border: 0px; border-radius: 0px; padding: 0px; margin: 0px;"><div style="position: absolute; transform: translate(-100%, -100%); top: 148.75px; left: 802px; width: auto; height: auto; pointer-events: all;"><div style="display: flex; flex-direction: row;"><div></div></div></div></div></div></grammarly-extension>
+</div>
+<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 135px; height: 160px; left: 93px; top: 250px;" data-block-id="1b35d6eaf6b452e66cd7b21f5948c9b9"><div class="sl-block-content" style="z-index: 13;"><img style="left: -128px; top: 0px; width: 494px; height: 328px;" data-natural-width="600" data-natural-height="400" data-crop-x="0.258333" data-crop-y="0" data-crop-width="0.273333" data-crop-height="0.4875" data-lazy-loaded="" data-src="reasonml-predictable-frontend-programming/b734e1b6b0ac2b3b825f19f146000c6e.png"></div></div>
+<div class="sl-block" data-block-type="text" style="width: 806px; left: 86px; top: 574px; height: auto;" data-block-id="27fb1bf5b59d3a6b5b9d92327185d32a">
+<div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 14;" dir="ui" data-fragment-index="1">
+<h3>But how does Reason know that? <span style="color:rgb(255, 255, 255); text-align:left">🤔</span>
+</h3>
+</div>
+<grammarly-extension style="position: absolute; top: 0px; left: 0px; pointer-events: none; z-index: 12;"><div data-grammarly-part="highlights" class="u_fNK" style="position: absolute; top: 0px; left: 0px;"><div style="box-sizing: content-box; top: 0px; left: 0px; width: 806px; height: 152.75px; position: relative; pointer-events: none; overflow: hidden; border: 0px; border-radius: 0px; padding: 0px; margin: 0px;"><div style="position: absolute; top: 0px; left: 0px;">
+<div style="height: 1233px; width: 2726px;"></div>
+<div style="position: absolute; top: 0px; left: 0px; height: 1233px; width: 2726px;"></div>
+</div></div></div>
+<div data-grammarly-part="button" class="u_fNK" style="position: absolute; top: 0px; left: 0px;"><div style="box-sizing: content-box; top: 0px; left: 0px; width: 806px; height: 152.75px; position: relative; pointer-events: none; overflow: hidden; border: 0px; border-radius: 0px; padding: 0px; margin: 0px;"><div style="position: absolute; transform: translate(-100%, -100%); top: 148.75px; left: 802px; width: auto; height: auto; pointer-events: all;"><div style="display: flex; flex-direction: row;"><div></div></div></div></div></div></grammarly-extension>
+</div>
+
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 127px; left: 821px; top: 651px;" data-block-id="e6416781d4a6fee03b464e7b35703b3d"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 17;">
+<p><span style="font-size:0.7em">seif_ghezala</span></p>
+</div></div>
+<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 27px; height: 22px; left: 794px; top: 660px;" data-block-id="f2be22da4331a3c680a4cef2d15428a4"><div class="sl-block-content" style="z-index: 18;"><img style="" data-natural-width="1140" data-natural-height="927" data-lazy-loaded="" data-src="reasonml-predictable-frontend-programming/ceb53154beba27d0427e7c5f87194428.png"></div></div></section><section data-id="1a5d997b5489bf4eb0eddfa0bd74bf50"><div class="sl-block" data-block-type="text" style="width: 806px; left: 80px; top: 103px; height: auto;" data-block-id="bcec43c70f50fc7b7a608ae38bce75a7"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;">
+<h2>Static typing: ReasonML</h2>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 627px; left: 170px; top: 290px; height: auto;" data-block-id="1b267818647c98711fc47c8e1dcd7947">
+<div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;" dir="ui">
+<h3>
+<strong><span style="color:#FF0000">Inference:</span></strong><em><strong> </strong></em>the ability of a compiler to determine the type of a value without you having to specify it.</h3>
+</div>
+<grammarly-extension style="position: absolute; top: 0px; left: 0px; pointer-events: none; z-index: 11;"><div data-grammarly-part="highlights" class="u_fNK" style="position: absolute; top: 0px; left: 0px;"><div style="box-sizing: content-box; top: 0px; left: 0px; width: 627px; height: 200px; position: relative; pointer-events: none; overflow: hidden; border: 0px; border-radius: 0px; padding: 0px; margin: 0px;"><div style="position: absolute; top: 0px; left: 0px;">
+<div style="height: 1280px; width: 2548px;"></div>
+<div style="position: absolute; top: 0px; left: 0px; height: 1280px; width: 2548px;"></div>
+</div></div></div>
+<div data-grammarly-part="button" class="u_fNK" style="position: absolute; top: 0px; left: 0px;"><div style="box-sizing: content-box; top: 0px; left: 0px; width: 627px; height: 200px; position: relative; pointer-events: none; overflow: hidden; border: 0px; border-radius: 0px; padding: 0px; margin: 0px;"><div style="position: absolute; transform: translate(-100%, -100%); top: 196px; left: 623px; width: auto; height: auto; pointer-events: all;"><div style="display: flex; flex-direction: row;"><div><div class="_5WizN _37oOc _1QzSN"><div class="_3YmQx"><div title="Protected by Grammarly" class="_3QdKe"> </div></div></div></div></div></div></div></div></grammarly-extension>
+</div>
+
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 127px; left: 821px; top: 651px;" data-block-id="182f9a568b36058f7cc665a7122bd98d"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 14;">
+<p><span style="font-size:0.7em">seif_ghezala</span></p>
+</div></div>
+<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 27px; height: 22px; left: 794px; top: 660px;" data-block-id="d250da0bba076ffafd9b6d26a024c0b3"><div class="sl-block-content" style="z-index: 15;"><img style="" data-natural-width="1140" data-natural-height="927" data-lazy-loaded="" data-src="reasonml-predictable-frontend-programming/ceb53154beba27d0427e7c5f87194428.png"></div></div></section><section data-id="0544555f7963e92dfc74137c592e33d5"><div class="sl-block" data-block-type="text" style="width: 806px; left: 80px; top: 103px; height: auto;" data-block-id="ef4139aa34472131b62230df2c733742"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;">
+<h2>Gradual typing: TypeScript</h2>
+</div></div>
+<div class="sl-block" data-block-type="image" style="width: 338px; height: 138px; left: 320px; top: 250px; min-width: 4px; min-height: 4px;" data-block-id="2fe2225afbbc7db2ccb9a3f0ffe2acf4"><div class="sl-block-content" style="z-index: 11; border-width: 1px; border-style: solid;"><img data-natural-width="490" data-natural-height="200" style="" data-lazy-loaded="" data-src="reasonml-predictable-frontend-programming/531373ae9666b68e4c86f32a79088db9.gif"></div></div>
+<div class="sl-block" data-block-type="text" style="width: 806px; left: 86px; top: 443px; height: auto;" data-block-id="b20d1e9245e8dea3ca6e34691d2f84a8">
+<div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;" dir="ui">
+<h3>At compile-time</h3>
+
+<ul>
+	<li>"<em>name</em>" is associated with type <em>"string"</em>.</li>
+	<li>
+	<p>TypeScript also has type inference!</p>
+	</li>
+</ul>
+</div>
+<grammarly-extension style="position: absolute; top: 0px; left: 0px; pointer-events: none; z-index: 12;"><div data-grammarly-part="highlights" class="u_fNK" style="position: absolute; top: 0px; left: 0px;"><div style="box-sizing: content-box; top: 0px; left: 0px; width: 806px; height: 152.75px; position: relative; pointer-events: none; overflow: hidden; border: 0px; border-radius: 0px; padding: 0px; margin: 0px;"><div style="position: absolute; top: 0px; left: 0px;">
+<div style="height: 1233px; width: 2726px;"></div>
+<div style="position: absolute; top: 0px; left: 0px; height: 1233px; width: 2726px;"></div>
+</div></div></div>
+<div data-grammarly-part="button" class="u_fNK" style="position: absolute; top: 0px; left: 0px;"><div style="box-sizing: content-box; top: 0px; left: 0px; width: 806px; height: 152.75px; position: relative; pointer-events: none; overflow: hidden; border: 0px; border-radius: 0px; padding: 0px; margin: 0px;"><div style="position: absolute; transform: translate(-100%, -100%); top: 148.75px; left: 802px; width: auto; height: auto; pointer-events: all;"><div style="display: flex; flex-direction: row;"><div></div></div></div></div></div></grammarly-extension>
+</div>
+<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 130px; height: 151px; left: 110px; top: 237px;" data-block-id="14aaeb27496f174588e2bda3e80b8636"><div class="sl-block-content" style="z-index: 13;"><img style="left: -230px; top: 0px; width: 600px; height: 299px;" data-natural-width="600" data-natural-height="299" data-crop-x="0.383333" data-crop-y="0" data-crop-width="0.216667" data-crop-height="0.505017" data-lazy-loaded="" data-src="reasonml-predictable-frontend-programming/2ba22f6c9706406cc63bbf1eefc66059.png"></div></div>
+
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 127px; left: 821px; top: 651px;" data-block-id="614fd10952c4eee10fc565d90dbb02c9"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 16;">
+<p><span style="font-size:0.7em">seif_ghezala</span></p>
+</div></div>
+<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 27px; height: 22px; left: 794px; top: 660px;" data-block-id="fc370b7b120602e25c8dbd8fe2fbb88d"><div class="sl-block-content" style="z-index: 17;"><img style="" data-natural-width="1140" data-natural-height="927" data-lazy-loaded="" data-src="reasonml-predictable-frontend-programming/ceb53154beba27d0427e7c5f87194428.png"></div></div></section><section data-id="9138de0bc208c900b1da0335f0c92edc"><div class="sl-block" data-block-type="text" style="width: 806px; left: 80px; top: 70px; height: auto;" data-block-id="b7a59a91cda95c44219d53e8cc9f49cb"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 10;">
+<h2>What about the difference between Reason &amp; TS? 😕</h2>
+</div></div>
+<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 135px; height: 160px; left: 251px; top: 329px;" data-block-id="380bc9c40100874bbe1b7bcb85edf186"><div class="sl-block-content" style="z-index: 11;"><img style="left: -128px; top: 0px; width: 494px; height: 328px;" data-natural-width="600" data-natural-height="400" data-crop-x="0.258333" data-crop-y="0" data-crop-width="0.273333" data-crop-height="0.4875" data-lazy-loaded="" data-src="reasonml-predictable-frontend-programming/b734e1b6b0ac2b3b825f19f146000c6e.png"></div></div>
+<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 130px; height: 151px; left: 579px; top: 339px;" data-block-id="c9561b7c52568e8b91c7abf79146cd71"><div class="sl-block-content" style="z-index: 12;"><img style="left: -230px; top: 0px; width: 600px; height: 299px;" data-natural-width="600" data-natural-height="299" data-crop-x="0.383333" data-crop-y="0" data-crop-width="0.216667" data-crop-height="0.505017" data-lazy-loaded="" data-src="reasonml-predictable-frontend-programming/2ba22f6c9706406cc63bbf1eefc66059.png"></div></div>
+<div class="sl-block" data-block-type="text" data-block-id="edcdfbca19d075ec160d1262a4763061" style="height: auto; min-width: 30px; min-height: 30px; width: 120px; left: 420px; top: 378px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13;">
+<h2><em>VS</em></h2>
+</div></div>
+
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 127px; left: 821px; top: 651px;" data-block-id="8cc20947fdc3c95b1164f8d3ef775b84"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 16;">
+<p><span style="font-size:0.7em">seif_ghezala</span></p>
+</div></div>
+<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 27px; height: 22px; left: 794px; top: 660px;" data-block-id="72474081135d51941e9d596b8e52a999"><div class="sl-block-content" style="z-index: 17;"><img style="" data-natural-width="1140" data-natural-height="927" data-lazy-loaded="" data-src="reasonml-predictable-frontend-programming/ceb53154beba27d0427e7c5f87194428.png"></div></div></section><section data-id="4a2fb5978e227400b60de0837cf0fcae">
+<div class="sl-block" data-block-type="image" style="width: 549px; height: 83px; left: 206px; top: 288px; min-width: 4px; min-height: 4px;" data-block-id="5cfb5762f1e4faee46c57e91b4b4ffa3"><div class="sl-block-content" style="z-index: 10; border-width: 1px; border-style: solid;"><img data-natural-width="758" data-natural-height="200" style="left: 0px; top: -30px; width: 549px; height: 145px;" data-lazy-loaded="" data-crop-x="0" data-crop-y="0.205128" data-crop-width="1" data-crop-height="0.57265" data-src="reasonml-predictable-frontend-programming/a1a2f8a78b0d1b6a5027bf5a90976630.gif"></div></div>
+
+
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 127px; left: 821px; top: 651px;" data-block-id="da3f8d911296f94eaeaa24d72f2ade60"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;">
+<p><span style="font-size:0.7em">seif_ghezala</span></p>
+</div></div>
+<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 27px; height: 22px; left: 794px; top: 660px;" data-block-id="471411dcc8b12616ededd034afc0961e"><div class="sl-block-content" style="z-index: 13;"><img style="" data-natural-width="1140" data-natural-height="927" data-lazy-loaded="" data-src="reasonml-predictable-frontend-programming/ceb53154beba27d0427e7c5f87194428.png"></div></div>
+<div class="sl-block" data-block-type="text" style="width: 806px; left: 80px; top: 103px; height: auto;" data-block-id="2e955d5f7ab20845925c3dbf90522d02"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 14;">
+<h2>Gradual typing: TypeScript</h2>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 606px; left: 194px; top: 437px; height: auto;" data-block-id="133d2b919ac667a21273fdb339a43cfa"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 15;">
+<ul>
+	<li class="fragment" data-fragment-index="0">
+	<p>TypeScript = Gradual type system.</p>
+	</li>
+	<li class="fragment" data-fragment-index="0">
+	<p><span style="color:#FF0000">Some</span> values can have their types checked at <span style="color:#FF0000">runtime</span>.</p>
+	</li>
+</ul>
+</div></div></section><section data-id="310b7df7f92b75233acbcbc3b9a17aa4"><div class="sl-block" data-block-type="text" style="width: 806px; left: 80px; top: 103px; height: auto;" data-block-id="692591ad226375b4032f8443efc753a3"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;">
+<h2>Static typing: ReasonML</h2>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 833px; left: 80px; top: 245px; height: auto;" data-block-id="837e0283b86f8bbc2d65db57be8652a8"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;">
+<h3>
+<span style="color:#FF0000"><span style="text-align:left">Every</span></span><span style="color:rgb(255, 255, 255); text-align:left"> type is checked at </span><span style="color:#FF0000"><span style="text-align:left">compile-time 🔥.</span></span>
+</h3>
+</div></div>
+<div class="sl-block" data-block-type="image" style="width: 500px; height: 281px; left: 254px; top: 349px; min-width: 4px; min-height: 4px;" data-block-id="1a04b1a3d5db657b7dab5e16b298dc35"><div class="sl-block-content" style="z-index: 12;"><img style="" data-natural-width="500" data-natural-height="281" data-lazy-loaded="" data-src="reasonml-predictable-frontend-programming/149a119309d252ff76ccc6b2623dd9fb.gif"></div></div>
+
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 127px; left: 821px; top: 651px;" data-block-id="15b9f7bb0bd2da8e59d6c7e65969c3fc"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 15;">
+<p><span style="font-size:0.7em">seif_ghezala</span></p>
+</div></div>
+<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 27px; height: 22px; left: 794px; top: 660px;" data-block-id="3af3337d1bf66d107f75a0ba6b29229c"><div class="sl-block-content" style="z-index: 16;"><img style="" data-natural-width="1140" data-natural-height="927" data-lazy-loaded="" data-src="reasonml-predictable-frontend-programming/ceb53154beba27d0427e7c5f87194428.png"></div></div></section><section data-id="9d24019eae08d12b4acc8d65ab47bdbe"><div class="sl-block" data-block-type="text" style="width: 806px; left: 80px; top: 103px; height: auto;" data-block-id="cda961950a5ac0ba7e9630ef5a7da3a5"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;">
+<h2>Static typing: ReasonML</h2>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 627px; left: 174px; top: 457px; height: auto;" data-block-id="982603a871b49c9d1553c2f85cd41f9f">
+<div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;" dir="ui" data-fragment-index="0">
+<p> </p>
+
+<ul>
+	<li>
+	<p>The <span style="color:#addb67">+</span> operatior is specific to integers in ReasonML. </p>
+	</li>
+	<li>
+	<p>ReasonML uses that to deduce the type.</p>
+	</li>
+</ul>
+</div>
+<grammarly-extension style="position: absolute; top: 0px; left: 0px; pointer-events: none; z-index: 11;"><div data-grammarly-part="highlights" class="u_fNK" style="position: absolute; top: 0px; left: 0px;"><div style="box-sizing: content-box; top: 0px; left: 0px; width: 627px; height: 200px; position: relative; pointer-events: none; overflow: hidden; border: 0px; border-radius: 0px; padding: 0px; margin: 0px;"><div style="position: absolute; top: 0px; left: 0px;">
+<div style="height: 1280px; width: 2548px;"></div>
+<div style="position: absolute; top: 0px; left: 0px; height: 1280px; width: 2548px;"></div>
+</div></div></div>
+<div data-grammarly-part="button" class="u_fNK" style="position: absolute; top: 0px; left: 0px;"><div style="box-sizing: content-box; top: 0px; left: 0px; width: 627px; height: 200px; position: relative; pointer-events: none; overflow: hidden; border: 0px; border-radius: 0px; padding: 0px; margin: 0px;"><div style="position: absolute; transform: translate(-100%, -100%); top: 196px; left: 623px; width: auto; height: auto; pointer-events: all;"><div style="display: flex; flex-direction: row;"><div><div class="_5WizN _37oOc _1QzSN"><div class="_3YmQx"><div title="Protected by Grammarly" class="_3QdKe"> </div></div></div></div></div></div></div></div></grammarly-extension>
+</div>
+<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 490px; height: 200px; left: 230px; top: 220px;" data-block-id="4da2a7dcdf1e354693ef480db8c98be3"><div class="sl-block-content" style="z-index: 12; border-style: solid; border-width: 1px;"><img data-natural-width="490" data-natural-height="200" style="" data-lazy-loaded="" data-src="reasonml-predictable-frontend-programming/a9a4d562489d063d2dec6cace7391f78.gif"></div></div>
+<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 135px; height: 160px; left: 38px; top: 220px;" data-block-id="4a4da4ef418d0e59dac398c7b7c8ec4f"><div class="sl-block-content" style="z-index: 13;"><img style="left: -128px; top: 0px; width: 494px; height: 328px;" data-natural-width="600" data-natural-height="400" data-crop-x="0.258333" data-crop-y="0" data-crop-width="0.273333" data-crop-height="0.4875" data-lazy-loaded="" data-src="reasonml-predictable-frontend-programming/b734e1b6b0ac2b3b825f19f146000c6e.png"></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 127px; left: 821px; top: 651px;" data-block-id="fb59bb558d70994bfd2f59a49a412cb7"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 16;">
+<p><span style="font-size:0.7em">seif_ghezala</span></p>
+</div></div>
+<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 27px; height: 22px; left: 794px; top: 660px;" data-block-id="1802128916aeac7cd4f82b882259e684"><div class="sl-block-content" style="z-index: 17;"><img style="" data-natural-width="1140" data-natural-height="927" data-lazy-loaded="" data-src="reasonml-predictable-frontend-programming/ceb53154beba27d0427e7c5f87194428.png"></div></div></section><section data-id="1bfc58b369db60f8179d0560ccb24671"><div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 266px; height: auto;" data-block-id="73aa129d76b5e0b9aee52eb4fe638a7a"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 10;">
+<h1>null, undefined &amp; option</h1>
+</div></div>
+
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 127px; left: 821px; top: 651px;" data-block-id="a275bf2bf53cc6c2e44450456ee23175"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13;">
+<p><span style="font-size:0.7em">seif_ghezala</span></p>
+</div></div>
+<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 27px; height: 22px; left: 794px; top: 660px;" data-block-id="074a9a4817669de72f1b49d154588711"><div class="sl-block-content" style="z-index: 14;"><img style="" data-natural-width="1140" data-natural-height="927" data-lazy-loaded="" data-src="reasonml-predictable-frontend-programming/ceb53154beba27d0427e7c5f87194428.png"></div></div></section><section data-id="5af3387cd135338e6eca897c3ca30233"><div class="sl-block" data-block-type="text" style="width: 806px; left: 80px; top: 103px; height: auto;" data-block-id="a4b1b663074497e8037758647dfd772e"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;">
+<h2>TypeScript</h2>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 806px; left: 82px; top: 420px; height: auto;" data-block-id="e9d1c897fafd98c9c342ecea92cde353">
+<div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;" dir="ui">
+<ul>
+	<li>
+	<p>params: arr <span style="color:#addb67">string[]</span>, condition <span style="color:#addb67">(item:string):boolean</span></p>
+	</li>
+	<li>
+	<p>return: <span style="color:rgb(173, 219, 103); text-align:left">string</span></p>
+	</li>
+</ul>
+</div>
+<grammarly-extension style="position: absolute; top: 0px; left: 0px; pointer-events: none; z-index: 12;"><div data-grammarly-part="highlights" class="u_fNK" style="position: absolute; top: 0px; left: 0px;"><div style="box-sizing: content-box; top: 0px; left: 0px; width: 806px; height: 93px; position: relative; pointer-events: none; overflow: hidden; border: 0px; border-radius: 0px; padding: 0px; margin: 0px;"><div style="position: absolute; top: 0px; left: 0px;">
+<div style="height: 1173px; width: 2726px;"></div>
+<div style="position: absolute; top: 0px; left: 0px; height: 1173px; width: 2726px;"></div>
+</div></div></div>
+<div data-grammarly-part="button" class="u_fNK" style="position: absolute; top: 0px; left: 0px;"><div style="box-sizing: content-box; top: 0px; left: 0px; width: 806px; height: 93px; position: relative; pointer-events: none; overflow: hidden; border: 0px; border-radius: 0px; padding: 0px; margin: 0px;"><div style="position: absolute; transform: translate(-100%, -100%); top: 89px; left: 802px; width: auto; height: auto; pointer-events: all;"><div style="display: flex; flex-direction: row;"><div><div class="_5WizN _1QzSN"><div class="_3YmQx"><div title="Protected by Grammarly" class="_3QdKe"> </div></div></div></div></div></div></div></div></grammarly-extension>
+</div>
+<div class="sl-block" data-block-type="code" data-block-id="96c8bb0f51582c03c79d35ba37224ae0" style="min-width: 30px; min-height: 30px; width: 800px; height: 123px; left: 80px; top: 227px;"><div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="osx" style="z-index: 12;"><pre class="typescript"><code data-line-numbers="">let find = (arr: string[], condition: (item:string):boolean):string =&gt; {
+  return arr.find(condition);
+};</code></pre></div></div>
+
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 127px; left: 821px; top: 651px;" data-block-id="8fb7a00efbf90c32a16e6cb6eaaa64e2"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 15;">
+<p><span style="font-size:0.7em">seif_ghezala</span></p>
+</div></div>
+<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 27px; height: 22px; left: 794px; top: 660px;" data-block-id="387b7da605ea9b19e609ce9e7ee5c4a2"><div class="sl-block-content" style="z-index: 16;"><img style="" data-natural-width="1140" data-natural-height="927" data-lazy-loaded="" data-src="reasonml-predictable-frontend-programming/ceb53154beba27d0427e7c5f87194428.png"></div></div></section><section data-id="7799969943d66e263e5e2fa0c6690dd9"><div class="sl-block" data-block-type="text" style="width: 806px; left: 80px; top: 103px; height: auto;" data-block-id="db876385ea63a6cbabee31a2ead6c6ef"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;">
+<h2>TypeScript</h2>
+</div></div>
+<div class="sl-block" data-block-type="code" style="width: 800px; height: 193px; left: 80px; top: 297px;" data-block-id="d96d721c8afb756f39ad7ec227d9b8cb"><div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="osx" style="z-index: 11;"><pre class="typescript"><code data-line-numbers="">let find = (arr: string[], condition: (item:string):boolean):string =&gt; {
+  return arr.find(condition);
+};
+
+let array = ["foo", "bar"];
+
+find(array, item =&gt; item.length === 3); // output: "foo"</code></pre></div></div>
+
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 127px; left: 821px; top: 651px;" data-block-id="bc0abe95bb94e8ca4f8735cbdd0c4843"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 14;">
+<p><span style="font-size:0.7em">seif_ghezala</span></p>
+</div></div>
+<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 27px; height: 22px; left: 794px; top: 660px;" data-block-id="9aa838f85b62a1a0974bab7506c3f025"><div class="sl-block-content" style="z-index: 15;"><img style="" data-natural-width="1140" data-natural-height="927" data-lazy-loaded="" data-src="reasonml-predictable-frontend-programming/ceb53154beba27d0427e7c5f87194428.png"></div></div></section><section data-id="7bd36b83b5770df582c4153045d32384"><div class="sl-block" data-block-type="text" style="width: 806px; left: 80px; top: 103px; height: auto;" data-block-id="da6cca4dc4f90a4331965266f3966d38"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;">
+<h2>TypeScript</h2>
+</div></div>
+<div class="sl-block" data-block-type="code" style="width: 800px; height: 193px; left: 80px; top: 217px;" data-block-id="c29bfc585d28ece43c62fcd18025af44"><div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="osx" style="z-index: 11;"><pre class="typescript"><code data-line-numbers="">let find = (arr: string[], condition: (item:string):boolean):string =&gt; {
+  return arr.find(condition);
+};
+
+let array = ["foo", "bar"];
+
+find(array, item =&gt; item.length === 1); // output: undefined</code></pre></div></div>
+<div class="sl-block" data-block-type="text" style="width: 806px; left: 80px; top: 456px; height: auto;" data-block-id="a029a61f0f2d5c1e646925fd6c3529ac">
+<div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;" dir="ui">
+<ul>
+	<li>
+	<p>WHAAAAT??</p>
+	</li>
+	<li>
+	<p>Not a bug: <span style="color:#addb67">undefined</span> is a subtype of all the other types.</p>
+	</li>
+</ul>
+</div>
+<grammarly-extension style="position: absolute; top: 0px; left: 0px; pointer-events: none; z-index: 12;"><div data-grammarly-part="highlights" class="u_fNK" style="position: absolute; top: 0px; left: 0px;"><div style="box-sizing: content-box; top: 0px; left: 0px; width: 806px; height: 93px; position: relative; pointer-events: none; overflow: hidden; border: 0px; border-radius: 0px; padding: 0px; margin: 0px;"><div style="position: absolute; top: 0px; left: 0px;">
+<div style="height: 1173px; width: 2726px;"></div>
+<div style="position: absolute; top: 0px; left: 0px; height: 1173px; width: 2726px;"></div>
+</div></div></div>
+<div data-grammarly-part="button" class="u_fNK" style="position: absolute; top: 0px; left: 0px;"><div style="box-sizing: content-box; top: 0px; left: 0px; width: 806px; height: 93px; position: relative; pointer-events: none; overflow: hidden; border: 0px; border-radius: 0px; padding: 0px; margin: 0px;"><div style="position: absolute; transform: translate(-100%, -100%); top: 89px; left: 802px; width: auto; height: auto; pointer-events: all;"><div style="display: flex; flex-direction: row;"><div><div class="_5WizN _1QzSN"><div class="_3YmQx"><div title="Protected by Grammarly" class="_3QdKe"> </div></div></div></div></div></div></div></div></grammarly-extension>
+</div>
+
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 127px; left: 821px; top: 651px;" data-block-id="22567a15cf1cfdb213e4474a820b37d8"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 15;">
+<p><span style="font-size:0.7em">seif_ghezala</span></p>
+</div></div>
+<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 27px; height: 22px; left: 794px; top: 660px;" data-block-id="6bd6ab0779b89c341f0e31b7f0fcb452"><div class="sl-block-content" style="z-index: 16;"><img style="" data-natural-width="1140" data-natural-height="927" data-lazy-loaded="" data-src="reasonml-predictable-frontend-programming/ceb53154beba27d0427e7c5f87194428.png"></div></div></section><section data-id="a04819c23170c841a683ab7b56b7d5d0"><div class="sl-block" data-block-type="text" style="width: 806px; left: 80px; top: 103px; height: auto;" data-block-id="d4573a67afe9e5acd072b5deac21ceed"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;">
+<h2>TypeScript</h2>
+</div></div>
+<div class="sl-block" data-block-type="code" style="width: 800px; height: 216px; left: 79px; top: 239px;" data-block-id="15774388889759b5f447538a27c1fc6e"><div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="osx" style="z-index: 11;"><pre class="typescript"><code data-line-numbers="">let someNumber: number = null; // valid ✅
+let anotherNumber: number = undefined; // valid ✅
+
+let someString: string = null; // valid ✅
+let anotherString: string = undefined; // valid ✅
+
+let someBoolean: boolean = null; // valid ✅
+let anotherBoolean: boolean = undefined; // valid ✅</code></pre></div></div>
+<div class="sl-block" data-block-type="text" style="width: 806px; left: 80px; top: 490px; height: auto;" data-block-id="34aae87ef94cdb270a4c0a8110c40296">
+<div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;" dir="ui">
+<p>You can assign <span style="color:#addb67">undefined </span>or <span style="color:rgb(173, 219, 103); text-align:left">null</span> to a <span style="color:#addb67">number</span> or a <span style="color:#addb67">string</span> variable. </p>
+</div>
+<grammarly-extension style="position: absolute; top: 0px; left: 0px; pointer-events: none; z-index: 12;"><div data-grammarly-part="highlights" class="u_fNK" style="position: absolute; top: 0px; left: 0px;"><div style="box-sizing: content-box; top: 0px; left: 0px; width: 806px; height: 93px; position: relative; pointer-events: none; overflow: hidden; border: 0px; border-radius: 0px; padding: 0px; margin: 0px;"><div style="position: absolute; top: 0px; left: 0px;">
+<div style="height: 1173px; width: 2726px;"></div>
+<div style="position: absolute; top: 0px; left: 0px; height: 1173px; width: 2726px;"></div>
+</div></div></div>
+<div data-grammarly-part="button" class="u_fNK" style="position: absolute; top: 0px; left: 0px;"><div style="box-sizing: content-box; top: 0px; left: 0px; width: 806px; height: 93px; position: relative; pointer-events: none; overflow: hidden; border: 0px; border-radius: 0px; padding: 0px; margin: 0px;"><div style="position: absolute; transform: translate(-100%, -100%); top: 89px; left: 802px; width: auto; height: auto; pointer-events: all;"><div style="display: flex; flex-direction: row;"><div><div class="_5WizN _1QzSN"><div class="_3YmQx"><div title="Protected by Grammarly" class="_3QdKe"> </div></div></div></div></div></div></div></div></grammarly-extension>
+</div>
+
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 127px; left: 821px; top: 651px;" data-block-id="00293131e6b3ec7fc3cf9d2383b5c492"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 15;">
+<p><span style="font-size:0.7em">seif_ghezala</span></p>
+</div></div>
+<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 27px; height: 22px; left: 794px; top: 660px;" data-block-id="738903c2d6bba348a05c9cc37a27f253"><div class="sl-block-content" style="z-index: 16;"><img style="" data-natural-width="1140" data-natural-height="927" data-lazy-loaded="" data-src="reasonml-predictable-frontend-programming/ceb53154beba27d0427e7c5f87194428.png"></div></div></section><section data-id="b11cdd4c3b21fe4f1282d53c5cbec3f9"><div class="sl-block" data-block-type="text" style="width: 806px; left: 80px; top: 103px; height: auto;" data-block-id="90514386a4676d3155896f7b51e7a365"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;">
+<h2>ReasonML</h2>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 806px; left: 80px; top: 420px; height: auto;" data-block-id="1b15926692644f95daa70ba233931b88">
+<div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;" dir="ui">
+<ul>
+	<li>
+	<p>params: arr <span style="color:#addb67">array(string)</span>, condition <font color="#addb67">string =&gt; bool.</font></p>
+	</li>
+	<li>
+	<p>return: <span style="color:rgb(173, 219, 103); text-align:left">option(string)</span></p>
+	</li>
+</ul>
+</div>
+<grammarly-extension style="position: absolute; top: 0px; left: 0px; pointer-events: none; z-index: 12;"><div data-grammarly-part="highlights" class="u_fNK" style="position: absolute; top: 0px; left: 0px;"><div style="box-sizing: content-box; top: 0px; left: 0px; width: 806px; height: 93px; position: relative; pointer-events: none; overflow: hidden; border: 0px; border-radius: 0px; padding: 0px; margin: 0px;"><div style="position: absolute; top: 0px; left: 0px;">
+<div style="height: 1173px; width: 2726px;"></div>
+<div style="position: absolute; top: 0px; left: 0px; height: 1173px; width: 2726px;"></div>
+</div></div></div>
+<div data-grammarly-part="button" class="u_fNK" style="position: absolute; top: 0px; left: 0px;"><div style="box-sizing: content-box; top: 0px; left: 0px; width: 806px; height: 93px; position: relative; pointer-events: none; overflow: hidden; border: 0px; border-radius: 0px; padding: 0px; margin: 0px;"><div style="position: absolute; transform: translate(-100%, -100%); top: 89px; left: 802px; width: auto; height: auto; pointer-events: all;"><div style="display: flex; flex-direction: row;"><div><div class="_5WizN _1QzSN"><div class="_3YmQx"><div title="Protected by Grammarly" class="_3QdKe"> </div></div></div></div></div></div></div></div></grammarly-extension>
+</div>
+<div class="sl-block" data-block-type="code" style="width: 868px; height: 123px; left: 59px; top: 227px;" data-block-id="5f5cefa51785398c2804cba3be6bff79"><div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="osx" style="z-index: 12;"><pre class="ocaml"><code data-line-numbers="">let find = (arr: array(string), condition:(string =&gt; bool)):option(string) =&gt; {
+  	Belt.Array.getBy(arr, condition);
+};</code></pre></div></div>
+
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 127px; left: 821px; top: 651px;" data-block-id="c42958556b228c90038f3dee92e58019"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 15;">
+<p><span style="font-size:0.7em">seif_ghezala</span></p>
+</div></div>
+<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 27px; height: 22px; left: 794px; top: 660px;" data-block-id="bc2517e01baf92bb67b58918b800f0ac"><div class="sl-block-content" style="z-index: 16;"><img style="" data-natural-width="1140" data-natural-height="927" data-lazy-loaded="" data-src="reasonml-predictable-frontend-programming/ceb53154beba27d0427e7c5f87194428.png"></div></div></section><section data-id="07ad1ff994aeb42b35ff6c926d257440"><div class="sl-block" data-block-type="text" style="width: 806px; left: 80px; top: 103px; height: auto;" data-block-id="068c6bff9aee246cbc8b5fa932f8bfec"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;">
+<h2>ReasonML</h2>
+</div></div>
+<div class="sl-block" data-block-type="code" style="width: 800px; height: 230px; left: 80px; top: 280px;" data-block-id="723cfd48e16beb2674d7ce8a801ed46b"><div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="osx" style="z-index: 11;"><pre class="ocaml"><code data-line-numbers="">let array = [|"foo", "bar"|]; 
+
+let condition = item =&gt; String.length(item) === 3;
+
+switch (find(array, condition)) {
+| Some(value) =&gt; Js.log(value)
+| None =&gt; Js.log("Value not found")
+};</code></pre></div></div>
+
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 127px; left: 821px; top: 651px;" data-block-id="20b8512e85139b59c2b0a8ab6f4048a8"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 14;">
+<p><span style="font-size:0.7em">seif_ghezala</span></p>
+</div></div>
+<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 27px; height: 22px; left: 794px; top: 660px;" data-block-id="d97dcd9c034e913b82c617126db6a316"><div class="sl-block-content" style="z-index: 15;"><img style="" data-natural-width="1140" data-natural-height="927" data-lazy-loaded="" data-src="reasonml-predictable-frontend-programming/ceb53154beba27d0427e7c5f87194428.png"></div></div></section><section data-id="33fb2e417256c9e840f95eedd15b5477"><div class="sl-block" data-block-type="image" data-block-id="fe069bf8c59a92e63089b768d27d8fc6" style="min-width: 4px; min-height: 4px; width: 532px; height: 399px; left: 240px; top: 195px;"><div class="sl-block-content" style="z-index: 11;"><img style="" data-natural-width="480" data-natural-height="360" data-lazy-loaded="" data-src="reasonml-predictable-frontend-programming/ce5d658a97c62105cbb51a1ddfc8bfe2.png"></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 833px; left: 64px; top: 42px;" data-block-id="1aaa5eef95b36ca45a2640d4cdeccded">
+<div class="sl-block-style" style="z-index: 12; transform: rotate(360deg);"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;" dir="ui">
+<h2>Comparing Type Systems ✅</h2>
+</div></div>
+<grammarly-extension style="position: absolute; top: 0px; left: 0px; pointer-events: none; z-index: 14;"><div data-grammarly-part="highlights" class="u_fNK" style="position: absolute; top: 0px; left: 0px;"><div style="box-sizing: content-box; top: 0px; left: 0px; width: 600px; height: 159.391px; position: relative; pointer-events: none; overflow: hidden; border: 0px; border-radius: 0px; padding: 0px; margin: 0px;"><div style="position: absolute; top: 0px; left: 0px;">
+<div style="height: 1239px; width: 2520px;"></div>
+<div style="position: absolute; top: 0px; left: 0px; height: 1239px; width: 2520px;"></div>
+</div></div></div>
+<div data-grammarly-part="button" class="u_fNK" style="position: absolute; top: 0px; left: 0px;"><div style="box-sizing: content-box; top: 0px; left: 0px; width: 600px; height: 159.391px; position: relative; pointer-events: none; overflow: hidden; border: 0px; border-radius: 0px; padding: 0px; margin: 0px;"><div style="position: absolute; transform: translate(-100%, -100%); top: 155.391px; left: 596px; width: auto; height: auto; pointer-events: all;"><div style="display: flex; flex-direction: row;"><div></div></div></div></div></div></grammarly-extension>
+</div></section><section data-id="e25ecd6d2fe96aadf837770c525bcd12"><div class="sl-block" data-block-type="text" style="width: 806px; left: 101px; top: 43px; height: auto;" data-block-id="8472a32c28e44b1ed38da4463e232b1d"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 10;">
+<h2>Demo: is Reason ready for production React applications?</h2>
+</div></div>
+
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 127px; left: 821px; top: 651px;" data-block-id="f8d7f9fc9a65c8ffffb4c4376256c156"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;">
+<p><span style="font-size:0.7em">seif_ghezala</span></p>
+</div></div>
+<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 27px; height: 22px; left: 794px; top: 660px;" data-block-id="d629b09e87b9ea888eb308b79b4407de"><div class="sl-block-content" style="z-index: 13;"><img style="" data-natural-width="1140" data-natural-height="927" data-lazy-loaded="" data-src="reasonml-predictable-frontend-programming/ceb53154beba27d0427e7c5f87194428.png"></div></div>
+<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 299px; height: 233px; left: 348px; top: 350px;" data-block-id="8ee23f8403cc25a87f8b3cde1152d67d"><div class="sl-block-content" style="z-index: 14;"><img data-natural-width="299" data-natural-height="233" style="" data-lazy-loaded="" data-src="reasonml-predictable-frontend-programming/bd5c6ee6107cb0c90858e06d9c32d3ef.png"></div></div></section><section data-id="57c4dce6b44135841633ced7503388b6"><div class="sl-block" data-block-type="text" style="width: 806px; left: 80px; top: 193px; height: auto;" data-block-id="caf99e0ca6aa107f0f18e791f58a9964"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 10;">
+<h1>Predictability</h1>
+
+<h1>vs</h1>
+
+<h1>Development speed</h1>
+</div></div>
+
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 127px; left: 821px; top: 651px;" data-block-id="bba493c226a0b54e87dcb595b3cf7a61"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13;">
+<p><span style="font-size:0.7em">seif_ghezala</span></p>
+</div></div>
+<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 27px; height: 22px; left: 794px; top: 660px;" data-block-id="41338076a92bd47a14b12f9cae6d94d0"><div class="sl-block-content" style="z-index: 14;"><img style="" data-natural-width="1140" data-natural-height="927" data-lazy-loaded="" data-src="reasonml-predictable-frontend-programming/ceb53154beba27d0427e7c5f87194428.png"></div></div></section><section data-id="8125ebe609e4156b5c4efc7bd85e055c">
+
+
+
+
+
+
+
+
+
+<div class="sl-block" data-block-type="image" style="width: 251px; height: 251px; left: 611px; top: 350px; min-width: 4px; min-height: 4px;" data-block-id="5a7241ba385ee627b24357dc2b89484d"><div class="sl-block-content" style="z-index: 11;"><img data-natural-width="480" data-natural-height="480" style="" data-lazy-loaded="" data-src="reasonml-predictable-frontend-programming/e537704510db5487aa9782412079cd28.gif"></div></div>
+<div class="sl-block" data-block-type="image" style="width: 139px; height: 124px; left: 146px; top: 414px; min-width: 4px; min-height: 4px;" data-block-id="7fd2d11299316097d89d105a05ef7726"><div class="sl-block-content" style="z-index: 12;"><img data-natural-width="480" data-natural-height="429" style="" data-lazy-loaded="" data-src="reasonml-predictable-frontend-programming/7f1852f10893d568a5d68818238cc2d2.gif"></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 384px; left: 48px; top: 311px;" data-block-id="3a9fde6428489912d9655288cb1dc6a4"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13;">
+<p>██████████ 100%</p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 392px; left: 535px; top: 311px;" data-block-id="409e54e37b759e6ecef9e8d6929b195b"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 14;">
+<p>██████████ 100%</p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 635px; left: 163px; top: 317px;" data-block-id="b7416b9441c34917fb047ae40c9db905"><div class="sl-block-style" style="z-index: 15; transform: rotate(330deg);"><div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 15; color: rgb(255, 0, 0); border-style: dashed; border-width: 4px;" data-animation-trigger-id="5a7241ba385ee627b24357dc2b89484d" data-fragment-index="0">
+<h1><span style="font-size:1.2em">UNREALISTIC</span></h1>
+</div></div></div>
+
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 127px; left: 821px; top: 651px;" data-block-id="f8d0c4efddd097cf832ef16075b51e5f"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 16;">
+<p><span style="font-size:0.7em">seif_ghezala</span></p>
+</div></div>
+<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 27px; height: 22px; left: 794px; top: 660px;" data-block-id="51e5108b68eea7832ce910b4d55f459e"><div class="sl-block-content" style="z-index: 17;"><img style="" data-natural-width="1140" data-natural-height="927" data-lazy-loaded="" data-src="reasonml-predictable-frontend-programming/ceb53154beba27d0427e7c5f87194428.png"></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 761px; left: 119px; top: 36px;" data-block-id="6e12a20f0fa3ec65661bac17c2336ed1">
+<div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 18;" dir="ui">
+<h2>Predictability vs</h2>
+
+<h2>Development speed</h2>
+</div>
+<grammarly-extension style="position: absolute; top: 0px; left: 0px; pointer-events: none; z-index: 14;"><div data-grammarly-part="highlights" class="u_fNK" style="position: absolute; top: 0px; left: 0px;"><div style="box-sizing: content-box; top: 0px; left: 0px; width: 600px; height: 159.391px; position: relative; pointer-events: none; overflow: hidden; border: 0px; border-radius: 0px; padding: 0px; margin: 0px;"><div style="position: absolute; top: 0px; left: 0px;">
+<div style="height: 1239px; width: 2520px;"></div>
+<div style="position: absolute; top: 0px; left: 0px; height: 1239px; width: 2520px;"></div>
+</div></div></div>
+<div data-grammarly-part="button" class="u_fNK" style="position: absolute; top: 0px; left: 0px;"><div style="box-sizing: content-box; top: 0px; left: 0px; width: 600px; height: 159.391px; position: relative; pointer-events: none; overflow: hidden; border: 0px; border-radius: 0px; padding: 0px; margin: 0px;"><div style="position: absolute; transform: translate(-100%, -100%); top: 155.391px; left: 596px; width: auto; height: auto; pointer-events: all;"><div style="display: flex; flex-direction: row;"><div></div></div></div></div></div></grammarly-extension>
+</div></section><section data-id="6465766ba57ef762bd56c950e6b72b7c">
+<div class="sl-block" data-block-type="code" style="width: 800px; height: 223px; left: 81px; top: 280px;" data-block-id="8e4333c52041354f28c0e6fbd18383e4"><div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="osx" style="z-index: 10;"><pre class="typescript"><code data-line-numbers="1|1-5|1-8">let concat = (a, b) =&gt; a + b;
+
+
+// concatenate strings
+concat("Hello ", "World"); // output: "Hello World"
+
+// concatenate strings with numbers
+concat("hello", 3); // output: "Hello 3
+</code></pre></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 819px; left: 71px; top: 61px;" data-block-id="3d0e595a16e08f2b1ab33618e2406aa7">
+<div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;" dir="ui">
+<h2>JavaScript</h2>
+</div>
+<grammarly-extension style="position: absolute; top: 0px; left: 0px; pointer-events: none; z-index: 10;"><div data-grammarly-part="highlights" class="u_fNK" style="position: absolute; top: 0px; left: 0px;"><div style="box-sizing: content-box; top: 0px; left: 0px; width: 600px; height: 74px; position: relative; pointer-events: none; overflow: hidden; border: 0px; border-radius: 0px; padding: 0px; margin: 0px;"><div style="position: absolute; top: 0px; left: 0px;">
+<div style="height: 1154px; width: 2520px;"></div>
+<div style="position: absolute; top: 0px; left: 0px; height: 1154px; width: 2520px;"></div>
+</div></div></div>
+<div data-grammarly-part="button" class="u_fNK" style="position: absolute; top: 0px; left: 0px;"><div style="box-sizing: content-box; top: 0px; left: 0px; width: 600px; height: 74px; position: relative; pointer-events: none; overflow: hidden; border: 0px; border-radius: 0px; padding: 0px; margin: 0px;"><div style="position: absolute; transform: translate(-100%, -100%); top: 70px; left: 596px; width: auto; height: auto; pointer-events: all;"><div style="display: flex; flex-direction: row;"><div></div></div></div></div></div></grammarly-extension>
+<grammarly-extension style="position: absolute; top: 0px; left: 0px; pointer-events: none; z-index: 14;"><div data-grammarly-part="highlights" class="u_fNK" style="position: absolute; top: 0px; left: 0px;"><div style="box-sizing: content-box; top: 0px; left: 0px; width: 600px; height: 159.391px; position: relative; pointer-events: none; overflow: hidden; border: 0px; border-radius: 0px; padding: 0px; margin: 0px;"><div style="position: absolute; top: 0px; left: 0px;">
+<div style="height: 1239px; width: 2520px;"></div>
+<div style="position: absolute; top: 0px; left: 0px; height: 1239px; width: 2520px;"></div>
+</div></div></div>
+<div data-grammarly-part="button" class="u_fNK" style="position: absolute; top: 0px; left: 0px;"><div style="box-sizing: content-box; top: 0px; left: 0px; width: 600px; height: 159.391px; position: relative; pointer-events: none; overflow: hidden; border: 0px; border-radius: 0px; padding: 0px; margin: 0px;"><div style="position: absolute; transform: translate(-100%, -100%); top: 155.391px; left: 596px; width: auto; height: auto; pointer-events: all;"><div style="display: flex; flex-direction: row;"><div></div></div></div></div></div></grammarly-extension>
+</div>
+<div class="sl-block" data-block-type="image" style="width: 251px; height: 251px; left: 640px; top: 281px; min-width: 4px; min-height: 4px;" data-block-id="b20a012ef437f8cdce344c288c01045a"><div class="sl-block-content" style="z-index: 12;"><img data-natural-width="480" data-natural-height="480" style="" data-lazy-loaded="" data-src="reasonml-predictable-frontend-programming/e537704510db5487aa9782412079cd28.gif"></div></div>
+
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 127px; left: 821px; top: 651px;" data-block-id="71d34d10abf26ddb81027f99b070de09"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 15;">
+<p><span style="font-size:0.7em">seif_ghezala</span></p>
+</div></div>
+<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 27px; height: 22px; left: 794px; top: 660px;" data-block-id="e40d47428769377b8d7332db3deea0f7"><div class="sl-block-content" style="z-index: 16;"><img style="" data-natural-width="1140" data-natural-height="927" data-lazy-loaded="" data-src="reasonml-predictable-frontend-programming/ceb53154beba27d0427e7c5f87194428.png"></div></div></section><section data-id="7d4931bbf3b9e83a31784d68d29554ee">
+<div class="sl-block" data-block-type="text" style="height: auto; width: 819px; left: 71px; top: 61px;" data-block-id="4ff80da034ad028b7f6d3bb62d432d10">
+<div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10;" dir="ui">
+<h2>Type safety vs Efficiency:</h2>
+
+<h2>ReasonML</h2>
+</div>
+<grammarly-extension style="position: absolute; top: 0px; left: 0px; pointer-events: none; z-index: 10;"><div data-grammarly-part="highlights" class="u_fNK" style="position: absolute; top: 0px; left: 0px;"><div style="box-sizing: content-box; top: 0px; left: 0px; width: 600px; height: 74px; position: relative; pointer-events: none; overflow: hidden; border: 0px; border-radius: 0px; padding: 0px; margin: 0px;"><div style="position: absolute; top: 0px; left: 0px;">
+<div style="height: 1154px; width: 2520px;"></div>
+<div style="position: absolute; top: 0px; left: 0px; height: 1154px; width: 2520px;"></div>
+</div></div></div>
+<div data-grammarly-part="button" class="u_fNK" style="position: absolute; top: 0px; left: 0px;"><div style="box-sizing: content-box; top: 0px; left: 0px; width: 600px; height: 74px; position: relative; pointer-events: none; overflow: hidden; border: 0px; border-radius: 0px; padding: 0px; margin: 0px;"><div style="position: absolute; transform: translate(-100%, -100%); top: 70px; left: 596px; width: auto; height: auto; pointer-events: all;"><div style="display: flex; flex-direction: row;"><div></div></div></div></div></div></grammarly-extension>
+<grammarly-extension style="position: absolute; top: 0px; left: 0px; pointer-events: none; z-index: 14;"><div data-grammarly-part="highlights" class="u_fNK" style="position: absolute; top: 0px; left: 0px;"><div style="box-sizing: content-box; top: 0px; left: 0px; width: 600px; height: 159.391px; position: relative; pointer-events: none; overflow: hidden; border: 0px; border-radius: 0px; padding: 0px; margin: 0px;"><div style="position: absolute; top: 0px; left: 0px;">
+<div style="height: 1239px; width: 2520px;"></div>
+<div style="position: absolute; top: 0px; left: 0px; height: 1239px; width: 2520px;"></div>
+</div></div></div>
+<div data-grammarly-part="button" class="u_fNK" style="position: absolute; top: 0px; left: 0px;"><div style="box-sizing: content-box; top: 0px; left: 0px; width: 600px; height: 159.391px; position: relative; pointer-events: none; overflow: hidden; border: 0px; border-radius: 0px; padding: 0px; margin: 0px;"><div style="position: absolute; transform: translate(-100%, -100%); top: 155.391px; left: 596px; width: auto; height: auto; pointer-events: all;"><div style="display: flex; flex-direction: row;"><div></div></div></div></div></div></grammarly-extension>
+</div>
+<div class="sl-block" data-block-type="image" style="width: 251px; height: 251px; left: 611px; top: 350px; min-width: 4px; min-height: 4px;" data-block-id="6ec15ff74520bf7b8cf22500e7c43e84"><div class="sl-block-content" style="z-index: 11;"><img data-natural-width="480" data-natural-height="480" style="" data-lazy-loaded="" data-src="reasonml-predictable-frontend-programming/e537704510db5487aa9782412079cd28.gif"></div></div>
+<div class="sl-block" data-block-type="image" style="width: 139px; height: 124px; left: 146px; top: 414px; min-width: 4px; min-height: 4px;" data-block-id="ea8cf8a9dabe0ce11e413c27cd6f4ae6"><div class="sl-block-content" style="z-index: 12;"><img data-natural-width="480" data-natural-height="429" style="" data-lazy-loaded="" data-src="reasonml-predictable-frontend-programming/7f1852f10893d568a5d68818238cc2d2.gif"></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 384px; left: 48px; top: 311px;" data-block-id="4c1a7593452ef4f8004aa04cf608723a"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13;">
+<p>██████████ 100%</p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 392px; left: 535px; top: 311px;" data-block-id="fe7160465e6c17503783c94d257f4416"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 14;">
+<p><span style="text-align:start">████████▁▁ X</span></p>
+</div></div>
+
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 127px; left: 821px; top: 651px;" data-block-id="9ae21a35dc94898e8a5f172b6d7d153f"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 17;">
+<p><span style="font-size:0.7em">seif_ghezala</span></p>
+</div></div>
+<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 27px; height: 22px; left: 794px; top: 660px;" data-block-id="9b949e08ff3554f38d3126f467b7bf57"><div class="sl-block-content" style="z-index: 18;"><img style="" data-natural-width="1140" data-natural-height="927" data-lazy-loaded="" data-src="reasonml-predictable-frontend-programming/ceb53154beba27d0427e7c5f87194428.png"></div></div></section><section data-id="8492192dac4ad21cbdacc1b71c43d1e3"><div class="sl-block" data-block-type="text" style="width: 806px; left: 87px; top: 201px; height: auto;" data-block-id="36c75e27af699d285799ccf8b2ca2fe7"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;">
+<h1>Thank you! 🙏</h1>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 255px; left: 380px; top: 395px; height: auto;" data-block-id="075d2970178f54e382921ba58a518e9d">
+    <div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 13;">
+        <h3>seif_ghezala</h3>
+    </div>
+</div>
+<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 46px; height: 37px; left: 326px; top: 402px;" data-block-id="bdcd44a827aec8f5ab24486739d85db9"><div class="sl-block-content" style="z-index: 14;"><img style="" data-natural-width="1140" data-natural-height="927" data-lazy-loaded="" data-src="reasonml-predictable-frontend-programming/ceb53154beba27d0427e7c5f87194428.png"></div></div></section>
+			</div>
+		</div>
+
+		<script>
+			var SLConfig = {"deck": {"id":1504636,"slug":"reasonml-predictable-frontend-programming","title":"ReasonML: Predictable Frontend Programming","description":"","width":960,"height":700,"visibility":"self","published_at":"2019-05-16T22:49:30.250Z","sanitize_messages":null,"thumbnail_url":"https://s3.amazonaws.com/media-p.slid.es/thumbnails/abb9438371b708412936c89a959d7431/thumb.jpg?1558975946","view_count":1,"user":{"id":1066038,"username":"seifghezala","name":"Seif Ghezala","description":null,"thumbnail_url":"https://lh5.googleusercontent.com/-YwCQXGr1sr8/AAAAAAAAAAI/AAAAAAAAAaA/PL8v0Drnajs/photo.jpg","paid":true,"pro":true,"lite":false,"team_id":null,"settings":{"id":3261668,"present_controls":true,"present_upsizing":true,"present_pointer":false,"present_notes":true,"default_deck_tag_id":null}},"background_transition":"slide","transition":"slide","theme_id":null,"theme_font":"montserrat","theme_color":"cobalt-orange","auto_slide_interval":0,"comments_enabled":true,"forking_enabled":true,"rolling_links":false,"center":false,"shuffle":false,"should_loop":false,"share_notes":false,"slide_number":false,"slide_count":39,"rtl":false,"version":2,"collaborative":true,"deck_user_editor_limit":3,"data_updated_at":1559864523735,"font_typekit":null,"font_google":null,"time_limit":null,"upsizing_enabled":true,"notes":{}}};
+
+
+			// Use local fonts
+			SLConfig.fonts_url = 'lib/fonts/';
+		</script>
+
+		<script src="lib/reveal.min.js"></script>
+		<script src="lib/offline.js"></script>
+
+		<!-- Initialize the presentation -->
+		<script>
+			Reveal.initialize({
+				width: 960,
+				height: 700,
+				margin: 0.05,
+				
+
+				hash: true,
+				controls: true,
+				progress: true,
+				mouseWheel: false,
+				showNotes: false,
+				slideNumber: false,
+
+				autoSlide: 0,
+				autoSlideStoppable: true,
+
+				center: false,
+				shuffle: false,
+				loop: false,
+				rtl: false,
+
+				transition: "slide",
+				backgroundTransition: "slide",
+
+				highlight: {
+					escapeHTML: false
+				},
+
+				dependencies: [
+					{ src: 'lib/reveal-plugins/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'lib/reveal-plugins/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'lib/reveal-plugins/highlight/highlight.js' },
+					{ src: 'lib/reveal-plugins/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'lib/reveal-plugins/zoom/zoom.js', async: true }
+				]
+			});
+		</script>
+
+		
+
+	</body>
+</html>

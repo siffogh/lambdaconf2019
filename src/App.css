@@ -1,0 +1,44 @@
+.App, form {
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flag {
+    margin-right: 10px;
+    font-size: 25px;
+}
+
+.inputField {
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.buttonsRow {
+    display: flex;
+}
+
+input {
+    font-size: 16px;
+}
+
+.result {
+    margin-top: 30px;
+    font-size: 30px;
+}
+
+button {
+    padding: 6px 16px;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.2), 0px 2px 2px 0px rgba(0,0,0,0.14), 0px 3px 1px -2px rgba(0,0,0,0.12);
+    color: rgba(0, 0, 0, 0.87);
+    background-color: #e0e0e0;
+}
+
+button[type="submit"] {
+    margin-right: 10px;
+    color: #fff;
+    background-color: #2196f3;
+}
